@@ -253,9 +253,9 @@ body {
 
 .item-img {
 
-    width: 85px;
+    width: 65px;
 
-    height: 85px;
+    height: 65px;
 
     object-fit: contain;
 
@@ -321,7 +321,7 @@ body {
 
     border-radius: 6px;
 
-    font-size: 15px;
+    font-size: 12px;
 
     font-weight: bold;
 }
@@ -348,12 +348,13 @@ body {
 
 .caerleon {
     background: #111;
+    color: white;
 }
 
 .fortsterling {
     background: #d8d2c8;
     color: black;
-}
+}   
 
 /* =========================
    RESPONSIVO

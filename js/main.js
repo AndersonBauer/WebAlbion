@@ -22,26 +22,21 @@ let pesquisaAtual = "";
 // ===============================
 // GERAR IMAGEM
 // ===============================
-    
+
 const imagensCategorias = {
 
-    // MADEIRA
     tronco: "WOOD",
     tabua: "PLANKS",
 
-    // PEDRA
     pedra: "ROCK",
     bloco: "STONEBLOCK",
 
-    // MINÉRIO
     minerio: "ORE",
     barra: "METALBAR",
 
-    // FIBRA
     fibra: "FIBER",
     tecido: "CLOTH",
 
-    // COURO
     couro: "HIDE"
 };
 
@@ -54,27 +49,22 @@ function gerarImagem(item) {
     const base =
     "https://db.albiononline.com.br/wp-content/themes/albiondata/db/images/itensg/";
 
-    // Procura categoria
     const categoria =
     imagensCategorias[item.categoria];
 
-    // Se não existir
     if (!categoria) {
         return "";
     }
 
-    // Nome base
     let nome =
     `T${item.tier}_${categoria}`;
 
-    // Encantamento
     if (item.encantamento > 0) {
 
         nome +=
         `_LEVEL${item.encantamento}@${item.encantamento}`;
     }
 
-    // Retorna imagem
     return `${base}${nome}.png`;
 }
 
@@ -112,9 +102,11 @@ function criarCards(lista) {
 
                 <div class="prices">
 
-                    <div class="price thetford">
-                        ${item.valor.toLocaleString()}
-                    </div>
+                    ${Object.entries(item.precos || {}).map(([cidade, valor]) => `
+                        <div class="price ${cidade.toLowerCase()}">
+                            ${valor.toLocaleString()}
+                        </div>
+                    `).join("")}
 
                 </div>
 
@@ -133,7 +125,6 @@ function aplicarFiltros() {
 
     let lista = [...mercado];
 
-    // Categoria
     if (categoriaAtual !== "todos") {
 
         lista = lista.filter(item =>
@@ -141,7 +132,6 @@ function aplicarFiltros() {
         );
     }
 
-    // Tier
     if (tierAtual !== "todos") {
 
         lista = lista.filter(item =>
@@ -149,7 +139,6 @@ function aplicarFiltros() {
         );
     }
 
-    // Pesquisa
     if (pesquisaAtual !== "") {
 
         lista = lista.filter(item =>
