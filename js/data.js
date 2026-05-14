@@ -6,7 +6,8 @@ const mercado = [
     tier: 2,
     encantamento: 0,
     precos: {
-      "Thetford": 110
+      "Thetford": 110,
+      "Lymhurst": 120
     }
   },
 
@@ -1239,6 +1240,8 @@ const mercado = [
     }
   },
 
+  // ===== BARRA =====
+
   {
     categoria: "barra",
     tier: 2,
@@ -1479,6 +1482,804 @@ const mercado = [
     encantamento: 4,
     precos: {
       "Thetford": 3250000
+    }
+  },
+
+  // ===== COURO CRU =====
+
+  {
+    categoria: "couro cru",
+    tier: 2,
+    encantamento: 0,
+    precos: {
+      "Thetford": 30
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 3,
+    encantamento: 0,
+    precos: {
+      "Thetford": 103
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 4,
+    encantamento: 0,
+    precos: {
+      "Thetford": 115
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 4,
+    encantamento: 1,
+    precos: {
+      "Thetford": 192
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 4,
+    encantamento: 2,
+    precos: {
+      "Thetford": 1377
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 4,
+    encantamento: 3,
+    precos: {
+      "Thetford": 6355
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 4,
+    encantamento: 4,
+    precos: {
+      "Thetford": 40012
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 5,
+    encantamento: 0,
+    precos: {
+      "Thetford": 540
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 5,
+    encantamento: 1,
+    precos: {
+      "Thetford": 779
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 5,
+    encantamento: 2,
+    precos: {
+      "Thetford": 2987
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 5,
+    encantamento: 3,
+    precos: {
+      "Thetford": 12000
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 5,
+    encantamento: 4,
+    precos: {
+      "Thetford": 49997
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 6,
+    encantamento: 0,
+    precos: {
+      "Thetford": 1479
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 6,
+    encantamento: 1,
+    precos: {
+      "Thetford": 2880
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 6,
+    encantamento: 2,
+    precos: {
+      "Thetford": 9402
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 6,
+    encantamento: 3,
+    precos: {
+      "Thetford": 36392
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 6,
+    encantamento: 4,
+    precos: {
+      "Thetford": 132867
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 7,
+    encantamento: 0,
+    precos: {
+      "Thetford": 4297
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 7,
+    encantamento: 1,
+    precos: {
+      "Thetford": 10842
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 7,
+    encantamento: 2,
+    precos: {
+      "Thetford": 28697
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 7,
+    encantamento: 3,
+    precos: {
+      "Thetford": 94980
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 7,
+    encantamento: 4,
+    precos: {
+      "Thetford": 699997
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 8,
+    encantamento: 0,
+    precos: {
+      "Thetford": 12199
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 8,
+    encantamento: 1,
+    precos: {
+      "Thetford": 27154
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 8,
+    encantamento: 2,
+    precos: {
+      "Thetford": 98960
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 8,
+    encantamento: 3,
+    precos: {
+      "Thetford": 1349985
+    }
+  },
+
+  {
+    categoria: "couro cru",
+    tier: 8,
+    encantamento: 4,
+    precos: {
+      "Thetford": 1280000
+    }
+  },
+
+  // ===== COURO CURTIDO =====
+
+  {
+    categoria: "couro",
+    tier: 2,
+    encantamento: 0,
+    precos: {
+      "Thetford": 51
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 3,
+    encantamento: 0,
+    precos: {
+      "Thetford": 223
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 4,
+    encantamento: 0,
+    precos: {
+      "Thetford": 277
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 4,
+    encantamento: 1,
+    precos: {
+      "Thetford": 431
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 4,
+    encantamento: 2,
+    precos: {
+      "Thetford": 2006
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 4,
+    encantamento: 3,
+    precos: {
+      "Thetford": 9691
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 4,
+    encantamento: 4,
+    precos: {
+      "Thetford": 42271
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 5,
+    encantamento: 0,
+    precos: {
+      "Thetford": 1299
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 5,
+    encantamento: 1,
+    precos: {
+      "Thetford": 1843
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 5,
+    encantamento: 2,
+    precos: {
+      "Thetford": 7787
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 5,
+    encantamento: 3,
+    precos: {
+      "Thetford": 30877
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 5,
+    encantamento: 4,
+    precos: {
+      "Thetford": 98453
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 6,
+    encantamento: 0,
+    precos: {
+      "Thetford": 4995
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 6,
+    encantamento: 1,
+    precos: {
+      "Thetford": 9019
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 6,
+    encantamento: 2,
+    precos: {
+      "Thetford": 29864
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 6,
+    encantamento: 3,
+    precos: {
+      "Thetford": 91975
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 6,
+    encantamento: 4,
+    precos: {
+      "Thetford": 339997
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 7,
+    encantamento: 0,
+    precos: {
+      "Thetford": 16385
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 7,
+    encantamento: 1,
+    precos: {
+      "Thetford": 33561
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 7,
+    encantamento: 2,
+    precos: {
+      "Thetford": 97998
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 7,
+    encantamento: 3,
+    precos: {
+      "Thetford": 295961
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 7,
+    encantamento: 4,
+    precos: {
+      "Thetford": 0
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 8,
+    encantamento: 0,
+    precos: {
+      "Thetford": 40999
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 8,
+    encantamento: 1,
+    precos: {
+      "Thetford": 99998
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 8,
+    encantamento: 2,
+    precos: {
+      "Thetford": 248000
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 8,
+    encantamento: 3,
+    precos: {
+      "Thetford": 763979
+    }
+  },
+
+  {
+    categoria: "couro",
+    tier: 8,
+    encantamento: 4,
+    precos: {
+      "Thetford": 3333310
+    }
+  },
+
+  // ===== PEDRA =====
+
+  {
+    categoria: "pedra",
+    tier: 2,
+    encantamento: 0,
+    precos: {
+      "Thetford": 82
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 3,
+    encantamento: 0,
+    precos: {
+      "Thetford": 78
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 4,
+    encantamento: 0,
+    precos: {
+      "Thetford": 9
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 4,
+    encantamento: 1,
+    precos: {
+      "Thetford": 8
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 4,
+    encantamento: 2,
+    precos: {
+      "Thetford": 10
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 4,
+    encantamento: 3,
+    precos: {
+      "Thetford": 32
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 4,
+    encantamento: 4,
+    precos: {
+      "Thetford": 0
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 5,
+    encantamento: 0,
+    precos: {
+      "Thetford": 76
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 5,
+    encantamento: 1,
+    precos: {
+      "Thetford": 118
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 5,
+    encantamento: 2,
+    precos: {
+      "Thetford": 253
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 5,
+    encantamento: 3,
+    precos: {
+      "Thetford": 55
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 5,
+    encantamento: 4,
+    precos: {
+      "Thetford": 0
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 6,
+    encantamento: 0,
+    precos: {
+      "Thetford": 505
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 6,
+    encantamento: 1,
+    precos: {
+      "Thetford": 734
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 6,
+    encantamento: 2,
+    precos: {
+      "Thetford": 1681
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 6,
+    encantamento: 3,
+    precos: {
+      "Thetford": 2518
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 6,
+    encantamento: 4,
+    precos: {
+      "Thetford": 0
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 7,
+    encantamento: 0,
+    precos: {
+      "Thetford": 1795
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 7,
+    encantamento: 1,
+    precos: {
+      "Thetford": 3779
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 7,
+    encantamento: 2,
+    precos: {
+      "Thetford": 7993
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 7,
+    encantamento: 3,
+    precos: {
+      "Thetford": 21580
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 7,
+    encantamento: 4,
+    precos: {
+      "Thetford": 0
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 8,
+    encantamento: 0,
+    precos: {
+      "Thetford": 9019
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 8,
+    encantamento: 1,
+    precos: {
+      "Thetford": 17753
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 8,
+    encantamento: 2,
+    precos: {
+      "Thetford": 50973
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 8,
+    encantamento: 3,
+    precos: {
+      "Thetford": 93998
+    }
+  },
+
+  {
+    categoria: "pedra",
+    tier: 8,
+    encantamento: 4,
+    precos: {
+      "Thetford": 0
+    }
+  },
+
+  {
+    categoria: "bloco de pedra",
+    tier: 2,
+    encantamento: 0,
+    precos: {
+      "Thetford": 74
+    }
+  },
+
+  {
+    categoria: "bloco de pedra",
+    tier: 3,
+    encantamento: 0,
+    precos: {
+      "Thetford": 215
+    }
+  },
+
+  {
+    categoria: "bloco de pedra",
+    tier: 4,
+    encantamento: 0,
+    precos: {
+      "Thetford": 262
+    }
+  },
+
+  {
+    categoria: "bloco de pedra",
+    tier: 5,
+    encantamento: 0,
+    precos: {
+      "Thetford": 369
+    }
+  },
+
+  {
+    categoria: "bloco de pedra",
+    tier: 6,
+    encantamento: 0,
+    precos: {
+      "Thetford": 1800
+    }
+  },
+
+  {
+    categoria: "bloco de pedra",
+    tier: 7,
+    encantamento: 0,
+    precos: {
+      "Thetford": 9000
+    }
+  },
+
+  {
+    categoria: "bloco de pedra",
+    tier: 8,
+    encantamento: 0,
+    precos: {
+      "Thetford": 44671
     }
   }
 ];

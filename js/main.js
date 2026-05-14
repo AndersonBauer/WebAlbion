@@ -20,7 +20,7 @@ let tierAtual = "todos";
 let pesquisaAtual = "";
 
 // ===============================
-// GERAR IMAGEM
+//  DICIONÁRIO DE IMAGENS
 // ===============================
 
 const imagensCategorias = {
@@ -29,7 +29,7 @@ const imagensCategorias = {
     tabua: "PLANKS",
 
     pedra: "ROCK",
-    bloco: "STONEBLOCK",
+    "bloco de pedra": "STONEBLOCK",
 
     minerio: "ORE",
     barra: "METALBAR",
@@ -37,7 +37,8 @@ const imagensCategorias = {
     fibra: "FIBER",
     tecido: "CLOTH",
 
-    couro: "HIDE"
+    "couro cru": "HIDE",
+    couro: "LEATHER",
 };
 
 // ===============================
