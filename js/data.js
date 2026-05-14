@@ -453,5 +453,437 @@ const mercado = [
     encantamento: 4,
     cidade: "Thetford",
     valor: 1259998
+  },
+  
+  {
+    categoria: "fibra",
+    tier: 2,
+    encantamento: 0,
+    cidade: "Thetford",
+    valor: 33
+  },
+  
+  {
+    categoria: "fibra",
+    tier: 3,
+    encantamento: 0,
+    cidade: "Thetford",
+    valor: 79
+  },
+  
+  {
+    categoria: "fibra",
+    tier: 4,
+    encantamento: 0,
+    cidade: "Thetford",
+    valor: 94
+  },
+
+  {
+    categoria: "fibra",
+    tier: 4,
+    encantamento: 1,
+    cidade: "Thetford",
+    valor: 129
+  },
+  
+  {
+    categoria: "fibra",
+    tier: 4,
+    encantamento: 2,
+    cidade: "Thetford",
+    valor: 1082
+  },
+
+  {
+    categoria: "fibra",
+    tier: 4,
+    encantamento: 3,
+    cidade: "Thetford",
+    valor: 5687
+  },
+
+  {
+    categoria: "fibra",
+    tier: 4,
+    encantamento: 4,
+    cidade: "Thetford",
+    valor: 38978
+  },
+
+  {
+    categoria: "fibra",
+    tier: 5,
+    encantamento: 0,
+    cidade: "Thetford",
+    valor: 346
+  },
+
+  {
+    categoria: "fibra",
+    tier: 5,
+    encantamento: 1,
+    cidade: "Thetford",
+    valor: 601
+  },
+
+  {
+    categoria: "fibra",
+    tier: 5,
+    encantamento: 2,
+    cidade: "Thetford",
+    valor: 1174
+  },
+
+  {
+    categoria: "fibra",
+    tier: 5,
+    encantamento: 3,
+    cidade: "Thetford",
+    valor: 8200
+  },
+
+  {
+    categoria: "fibra",
+    tier: 5,
+    encantamento: 4,
+    cidade: "Thetford",
+    valor: 46500
+  },
+
+  {
+    categoria: "fibra",
+    tier: 6,
+    encantamento: 0,
+    cidade: "Thetford",
+    valor: 933
+  },
+
+  {
+    categoria: "fibra",
+    tier: 6,
+    encantamento: 1,
+    cidade: "Thetford",
+    valor: 1356
+  },
+
+  {
+    categoria: "fibra",
+    tier: 6,
+    encantamento: 2,
+    cidade: "Thetford",
+    valor: 5982
+  },
+
+  {
+    categoria: "fibra",
+    tier: 6,
+    encantamento: 3,
+    cidade: "Thetford",
+    valor: 17168
+  },
+
+  {
+    categoria: "fibra",
+    tier: 6,
+    encantamento: 4,
+    cidade: "Thetford",
+    valor: 118294
+  },
+
+  {
+    categoria: "fibra",
+    tier: 7,
+    encantamento: 0,
+    cidade: "Thetford",
+    valor: 1770
+  },
+
+  {
+    categoria: "fibra",
+    tier: 7,
+    encantamento: 1,
+    cidade: "Thetford",
+    valor: 4754
+  },
+
+  {
+    categoria: "fibra",
+    tier: 7,
+    encantamento: 2,
+    cidade: "Thetford",
+    valor: 14955
+  },
+
+  {
+    categoria: "fibra",
+    tier: 7,
+    encantamento: 3,
+    cidade: "Thetford",
+    valor: 81785
+  },
+
+  {
+    categoria: "fibra",
+    tier: 7,
+    encantamento: 4,
+    cidade: "Thetford",
+    valor: 319000
+  },
+
+  {
+    categoria: "fibra",
+    tier: 8,
+    encantamento: 0,
+    cidade: "Thetford",
+    valor: 7994
+  },
+
+  {
+    categoria: "fibra",
+    tier: 8,
+    encantamento: 1,
+    cidade: "Thetford",
+    valor: 17165
+  },
+
+  {
+    categoria: "fibra",
+    tier: 8,
+    encantamento: 2,
+    cidade: "Thetford",
+    valor: 73381
+  },
+
+  {
+    categoria: "fibra",
+    tier: 8,
+    encantamento: 3,
+    cidade: "Thetford",
+    valor: 279940
+  },
+
+  {
+    categoria: "fibra",
+    tier: 8,
+    encantamento: 4,
+    cidade: "Thetford",
+    valor: 1305988
+  },
+
+  {
+    categoria: "tecido",
+    tier: 2,
+    encantamento: 0,
+    cidade: "Thetford",
+    valor: 20
+  },
+
+  {
+    categoria: "tecido",
+    tier: 3,
+    encantamento: 0,
+    cidade: "Thetford",
+    valor: 160
+  },
+
+  {
+    categoria: "tecido",
+    tier: 4,
+    encantamento: 0,
+    cidade: "Thetford",
+    valor: 281
+  },
+
+  {
+    categoria: "tecido",
+    tier: 4,
+    encantamento: 1,
+    cidade: "Thetford",
+    valor: 405
+  },
+
+  {
+    categoria: "tecido",
+    tier: 4,
+    encantamento: 2,
+    cidade: "Thetford",
+    valor: 2008
+  },
+
+  {
+    categoria: "tecido",
+    tier: 4,
+    encantamento: 3,
+    cidade: "Thetford",
+    valor: 7792
+  },
+
+  {
+    categoria: "tecido",
+    tier: 4,
+    encantamento: 3,
+    cidade: "Thetford",
+    valor: 42000
+  },
+
+  {
+    categoria: "tecido",
+    tier: 5,
+    encantamento: 0,
+    cidade: "Thetford",
+    valor: 888
+  },
+
+  {
+    categoria: "tecido",
+    tier: 5,
+    encantamento: 1,
+    cidade: "Thetford",
+    valor: 1730
+  },
+
+  {
+    categoria: "tecido",
+    tier: 5,
+    encantamento: 2,
+    cidade: "Thetford",
+    valor: 4550
+  },
+
+  {
+    categoria: "tecido",
+    tier: 5,
+    encantamento: 3,
+    cidade: "Thetford",
+    valor: 20967
+  },
+
+  {
+    categoria: "tecido",
+    tier: 5,
+    encantamento: 4,
+    cidade: "Thetford",
+    valor: 103333
+  },
+
+  {
+    categoria: "tecido",
+    tier: 6,
+    encantamento: 0,
+    cidade: "Thetford",
+    valor: 3455
+  },
+
+  {
+    categoria: "tecido",
+    tier: 6,
+    encantamento: 1,
+    cidade: "Thetford",
+    valor: 5988
+  },
+
+  {
+    categoria: "tecido",
+    tier: 6,
+    encantamento: 2,
+    cidade: "Thetford",
+    valor: 19849
+  },
+
+  {
+    categoria: "tecido",
+    tier: 6,
+    encantamento: 3,
+    cidade: "Thetford",
+    valor: 52988
+  },
+
+  {
+    categoria: "tecido",
+    tier: 6,
+    encantamento: 1,
+    cidade: "Thetford",
+    valor: 274975
+  },
+
+  {
+    categoria: "tecido",
+    tier: 7,
+    encantamento: 0,
+    cidade: "Thetford",
+    valor: 7962
+  },
+
+  {
+    categoria: "tecido",
+    tier: 7,
+    encantamento: 1,
+    cidade: "Thetford",
+    valor: 21893
+  },
+
+  {
+    categoria: "tecido",
+    tier: 7,
+    encantamento: 2,
+    cidade: "Thetford",
+    valor: 53847
+  },
+
+  {
+    categoria: "tecido",
+    tier: 7,
+    encantamento: 3,
+    cidade: "Thetford",
+    valor: 206991
+  },
+
+  {
+    categoria: "tecido",
+    tier: 7,
+    encantamento: 4,
+    cidade: "Thetford",
+    valor: 829988
+  },
+
+  {
+    categoria: "tecido",
+    tier: 8,
+    encantamento: 0,
+    cidade: "Thetford",
+    valor: 0
+  },
+
+  {
+    categoria: "tecido",
+    tier: 8,
+    encantamento: 1,
+    cidade: "Thetford",
+    valor: 69990
+  },
+
+  {
+    categoria: "tecido",
+    tier: 8,
+    encantamento: 2,
+    cidade: "Thetford",
+    valor: 207997
+  },
+
+  {
+    categoria: "tecido",
+    tier: 8,
+    encantamento: 3,
+    cidade: "Thetford",
+    valor: 679997
+  },
+
+  {
+    categoria: "tecido",
+    tier: 8,
+    encantamento: 4,
+    cidade: "Thetford",
+    valor: 3429995
   }
 ];

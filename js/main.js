@@ -103,11 +103,11 @@ function criarCards(lista) {
             <div class="item-content">
 
                 <div class="item-title">
-                    T${item.tier}.${item.encantamento}
+                    ${item.categoria.toUpperCase()}
                 </div>
 
                 <div class="item-name">
-                    ${item.categoria.toUpperCase()}
+                    T${item.tier}.${item.encantamento}
                 </div>
 
                 <div class="prices">
