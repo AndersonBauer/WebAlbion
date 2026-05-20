@@ -5,7 +5,7 @@ export const Tabua = [
     tier: 2,
     encantamento: 0,
     precos: {
-      "Thetford": 25;
+      "Thetford": 25,
     },
     craft: [
       {id: "TRONCO_T2_E0", quantidade: 1}
