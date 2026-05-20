@@ -13,7 +13,7 @@
 ========================= */
 
 body {
-    
+
     background:
         linear-gradient(rgba(10,10,10,0.92), rgba(10,10,10,0.96)),
         url("https://images.albiononline.com/uploads/media/default/media/5d5d0d3f0f6d3.jpg");
@@ -437,5 +437,124 @@ body {
     .prices {
 
         justify-content: center;
+    }
+}
+
+@media (max-width: 700px) {
+
+    body {
+
+        padding: 15px;
+    }
+
+    .search-box input {
+
+        height: 50px;
+
+        font-size: 16px;
+    }
+
+    .categories,
+    .filters {
+
+        flex-wrap: nowrap;
+
+        overflow-x: auto;
+
+        justify-content: flex-start;
+
+        padding-bottom: 8px;
+
+        scrollbar-width: none;
+    }
+
+    .categories::-webkit-scrollbar,
+    .filters::-webkit-scrollbar {
+
+        display: none;
+    }
+
+    .category-btn,
+    .filter-btn {
+
+        flex-shrink: 0;
+    }
+
+    #cards-container {
+
+        grid-template-columns:
+        repeat(2, 1fr);
+    }
+
+    .card {
+
+        padding: 14px;
+
+        gap: 14px;
+    }
+
+    .item-img {
+
+        width: 55px;
+        height: 55px;
+    }
+
+    .item-title {
+
+        font-size: 18px;
+    }
+
+    .item-name {
+
+        font-size: 14px;
+
+        margin-bottom: 10px;
+    }
+
+    .prices {
+
+        gap: 6px;
+    }
+
+    .price {
+
+        font-size: 12px;
+
+        padding: 6px 10px;
+    }
+
+    .back-button {
+
+        margin-bottom: 10px;
+        width: 46px;
+        height: 46px;
+    }
+
+    .back-button img {
+
+        width: 20px !important;
+        height: 20px !important;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1100px) {
+
+    .back-button {
+
+        margin-bottom: 10px;
+        width: 46px;
+        height: 46px;
+    }
+
+    .back-button img {
+
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    #cards-container {
+
+        grid-template-columns:
+        repeat(3, 1fr);
     }
 }

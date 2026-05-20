@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WEBALBION</title>
 
     <link rel="stylesheet" href="css/styleInicio.css">
 </head>
 <body>
+    
+    <button class="menu-toggle">
+        ☰
+    </button>
 
     <div class="layout">
 
@@ -68,6 +72,20 @@
         </main>
 
     </div>
+    <script>
+
+    const menuToggle =
+    document.querySelector(".menu-toggle");
+
+    const sidebar =
+    document.querySelector(".sidebar");
+
+    menuToggle.addEventListener("click", () => {
+
+        sidebar.classList.toggle("active");
+    });
+
+</script>
 
 </body>
 </html>

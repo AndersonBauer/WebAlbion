@@ -30,6 +30,33 @@ body {
     font-family: "Cinzel", serif;
 }
 
+.item-header {
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 35px;
+
+    padding-bottom: 20px;
+
+    border-bottom:
+        1px solid rgba(255,255,255,0.08);
+}
+
+.item-info {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+}
+
 .back-button {
 
     width: 60px;
@@ -553,4 +580,249 @@ body {
 .price.caerleon input {
     background: #111;
         color: white;
+}
+
+/* =========================
+   RESPONSIVO ITEM MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    .back-button {
+        margin-bottom: 10px;
+
+        width: 46px;
+        height: 46px;
+    }
+
+    .back-button img {
+
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    body {
+
+        padding: 15px;
+    }
+
+    .item-page {
+
+        width: 100%;
+
+        padding: 20px;
+
+        margin: 20px auto;
+    }
+
+    /* HEADER ITEM */
+
+    .item-header {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: center;
+
+        gap: 15px;
+    }
+
+    #item-imagem {
+
+        width: 120px;
+        height: 120px;
+    }
+
+    #item-nome {
+
+        font-size: 26px;
+
+        line-height: 1.2;
+
+        padding: 10px;
+    }
+
+    #item-tier {
+
+        font-size: 18px;
+
+        margin-bottom: 10px;
+    }
+
+    /* TITULOS */
+
+    #item-title-card {
+
+        padding: 0;
+
+        justify-content: space-between;
+
+        gap: 20px;
+
+        margin-bottom: 15px;
+    }
+
+    #item-title-card h2 {
+
+        font-size: 18px;
+    }
+
+    /* CARD CIDADE */
+
+    .city-card {
+
+        width: 100%;
+
+        flex-direction: column;
+
+        gap: 20px;
+
+        padding: 16px;
+    }
+
+    .city-left {
+
+        width: 100%;
+
+        align-items: center;
+    }
+
+    .city-right {
+
+        width: 100%;
+
+        border-left: none;
+
+        border-top:
+            1px solid rgba(255,255,255,0.08);
+
+        padding-left: 0;
+
+        padding-top: 18px;
+    }
+
+    /* PREÇO */
+
+    .price {
+
+        width: 100%;
+
+        justify-content: space-between;
+
+        max-width: 100%;
+    }
+
+    .price-input {
+
+        width: 110px;
+    }
+
+    /* MATERIAIS */
+
+    .craft-material {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 12px;
+    }
+
+    .craft-material-left {
+
+        width: 100%;
+    }
+
+    .craft-material-right {
+
+        width: 100%;
+
+        display: flex;
+
+        justify-content: space-between;
+
+        align-items: center;
+    }
+
+    .material-price {
+
+        width: 120px;
+    }
+
+    /* TOTAL */
+
+    .craft-total {
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 14px;
+
+        margin-top: 10px;
+    }
+
+    .craft-cost,
+    .craft-profit {
+
+        width: 100%;
+
+        display: flex;
+
+        justify-content: space-between;
+
+        align-items: center;
+    }
+
+    .item-header {
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 15px;
+    }
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (min-width: 701px) and (max-width: 1100px) {
+
+    .back-button {
+
+        margin-bottom: 10px;
+        width: 46px;
+        height: 46px;
+    }
+
+    .back-button img {
+
+        width: 20px !important;
+        height: 20px !important;
+    }   
+
+    .city-card {
+
+        width: 100%;
+    }
+
+    .item-page {
+
+        max-width: 95%;
+    }
+
+    #item-title-card {
+
+        padding: 0 120px 0 20px;
+    }
+
+    .city-right {
+
+        width: 55%;
+    }
 }

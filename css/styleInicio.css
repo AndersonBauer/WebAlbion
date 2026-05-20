@@ -353,3 +353,90 @@ body {
 
     color: black;
 }
+/* =========================
+   MENU MOBILE
+========================= */
+
+.menu-toggle {
+
+    display: none;
+
+    position: fixed;
+
+    top: 15px;
+
+    left: 15px;
+
+    z-index: 1000;
+
+    background: #3d2f20;
+
+    border: 1px solid #6d5226;
+
+    color: #f0d28b;
+
+    font-size: 28px;
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 0 10px rgba(0,0,0,.5);
+}
+
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+
+        display: block;
+    }
+
+    .sidebar {
+        padding-top: 75px;
+
+        position: fixed;
+
+        left: -280px;
+
+        top: 0;
+
+        height: 100vh;
+
+        z-index: 999;
+
+        transition: .3s;
+    }
+
+    .sidebar.active {
+
+        left: 0;
+    }
+
+    .main-content {
+
+        width: 100%;
+
+        padding-top: 80px;
+    }
+
+    #search-input {
+
+        width: 100%;
+    }
+
+    #cards-container {
+
+        grid-template-columns:
+        repeat(auto-fill, minmax(160px, 1fr));
+    }
+}
