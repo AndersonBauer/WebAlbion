@@ -1,191 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-    <title>WEBALBION</title>
-
-    <!-- <link rel="icon" type="image/png" href="favicon.png"> -->
-
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/styleInicio.css">
 </head>
-
 <body>
 
-    <h1 class="page-title">
-        WEBALBION
-    </h1>
+    <div class="layout">
 
-    <!-- PESQUISA -->
+        <!-- MENU LATERAL -->
 
-    <div class="search-box">
+        <aside class="sidebar">
 
-        <input
-            type="text"
-            id="search-input"
-            placeholder="Pesquisar item..."
-        >
+            <h1 class="logo">
+                WEBALBION
+            </h1>
 
-    </div>
+            <nav class="sidebar-nav">
 
-    <!-- CATEGORIAS -->
+                <a href="Pages/resources.html" class="nav-item">
+                    Recursos
+                </a>
 
-    <div class="categories">
+                <a href="armas.html" class="nav-item">
+                    Armas
+                </a>
 
-        <button
-            class="category-btn active"
-            data-category="todos"
-        >
-            Todos
-        </button>
+                <a href="armaduras.html" class="nav-item">
+                    Armaduras
+                </a>
 
-        <button
-            class="category-btn"
-            data-category="tronco"
-        >
-            Tronco
-        </button>
+                <a href="consumiveis.html" class="nav-item">
+                    Consumíveis
+                </a>
 
-        <button
-            class="category-btn"
-            data-category="tabua"
-        >
-            Tabua
-        </button>
+            </nav>
 
-        <button
-            class="category-btn"
-            data-category="pedra"
-        >
-            Pedra
-        </button>
+        </aside>
 
-        <button
-            class="category-btn"
-            data-category="bloco de pedra"
-        >
-            Bloco de Pedra
-        </button>
+        <!-- CONTEÚDO -->
 
-        <button
-            class="category-btn"
-            data-category="minerio"
-        >
-            Minério
-        </button>
+        <main class="main-content">
 
-        <button
-            class="category-btn"
-            data-category="barra"
-        >
-            Barra
-        </button>
+            <!-- CATEGORIAS -->
 
-        <button
-            class="category-btn"
-            data-category="fibra"
-        >
-            Fibra
-        </button>
+            <div class="categories">
 
-        <button
-            class="category-btn"
-            data-category="tecido"
-        >
-            Tecido
-        </button>
+                <!-- teus botões -->
 
-        <button
-            class="category-btn"
-            data-category="couro cru"
-        >
-            Couro Cru
-        </button>
+            </div>
 
-        <button
-            class="category-btn"
-            data-category="couro"
-        >
-            Couro
-        </button>
+            <!-- TIERS -->
+
+            <div class="filters">
+
+                <!-- teus filtros -->
+
+            </div>
+
+            <!-- CARDS -->
+
+            <div id="cards-container"></div>
+
+        </main>
 
     </div>
-
-    <!-- TIERS -->
-
-    <div class="filters">
-
-        <button
-            class="filter-btn active"
-            data-tier="todos"
-        >
-            Todos
-        </button>
-
-        <button
-            class="filter-btn"
-            data-tier="2"
-        >
-            T2
-        </button>
-
-        <button
-            class="filter-btn"
-            data-tier="3"
-        >
-            T3
-        </button>
-
-        <button
-            class="filter-btn"
-            data-tier="4"
-        >
-            T4
-        </button>
-
-        <button
-            class="filter-btn"
-            data-tier="5"
-        >
-            T5
-        </button>
-
-        <button
-            class="filter-btn"
-            data-tier="6"
-        >
-            T6
-        </button>
-
-        <button
-            class="filter-btn"
-            data-tier="7"
-        >
-            T7
-        </button>
-
-        <button
-            class="filter-btn"
-            data-tier="8"
-        >
-            T8
-        </button>
-
-    </div>
-
-    <!-- CARDS -->
-
-    <div id="cards-container"></div>
-
-    <script src="js/data.js"></script>
-
-    <script src="js/main.js"></script>
 
 </body>
-
 </html>
+

@@ -1,0 +1,355 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* =========================
+   BODY
+========================= */
+
+body {
+
+     background:
+        linear-gradient(rgba(10,10,10,0.92), rgba(10,10,10,0.96)),
+        url("https://images.albiononline.com/uploads/media/default/media/5d5d0d3f0f6d3.jpg");
+
+    font-family: Arial, sans-serif;
+
+    color: white;
+}
+
+/* =========================
+   LAYOUT
+========================= */
+
+.layout {
+
+    display: flex;
+
+    min-height: 100vh;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+
+    width: 260px;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(42,35,25,0.97),
+            rgba(18,15,12,0.97)
+        );
+
+    border-right: 2px solid #6d5226;
+
+    padding: 20px;
+
+    box-shadow:
+        0 0 15px rgba(0,0,0,0.6);
+}
+
+.logo {
+
+    color: #f0d28b;
+
+    font-size: 32px;
+
+    margin-bottom: 30px;
+
+    text-shadow:
+        0 0 10px rgba(0,0,0,0.5);
+}
+
+/* =========================
+   MENU
+========================= */
+
+.sidebar-nav {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.nav-item {
+
+    background: #403529;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 16px;
+
+    border-radius: 6px;
+
+    transition: .2s;
+
+    font-size: 16px;
+}
+
+.nav-item:hover {
+
+    background: #4f5d70;
+
+    transform: translateX(4px);
+}
+
+/* =========================
+   CONTEÚDO
+========================= */
+
+.main-content {
+
+    flex: 1;
+
+    padding: 30px;
+}
+
+.page-title {
+
+    font-size: 36px;
+
+    color: #f0d28b;
+
+    margin-bottom: 25px;
+}
+
+/* =========================
+   PESQUISA
+========================= */
+
+.search-box {
+
+    margin-bottom: 20px;
+}
+
+#search-input {
+
+    width: 300px;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #465466;
+
+    color: white;
+
+    outline: none;
+}
+
+#search-input::placeholder {
+
+    color: #cfcfcf;
+}
+
+/* =========================
+   CATEGORIAS
+========================= */
+
+.categories {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+
+.category-btn {
+
+    background: #4b596a;
+
+    border: none;
+
+    color: white;
+
+    padding: 10px 14px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+.category-btn:hover {
+
+    background: #5e6d81;
+}
+
+.category-btn.active {
+
+    background: #31a9db;
+}
+
+/* =========================
+   TIERS
+========================= */
+
+.filters {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+
+    background: #4b596a;
+
+    border: none;
+
+    color: white;
+
+    padding: 10px 14px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+.filter-btn:hover {
+
+    background: #5e6d81;
+}
+
+.filter-btn.active {
+
+    background: #31a9db;
+}
+
+/* =========================
+   CARDS
+========================= */
+
+#cards-container {
+
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fill, minmax(220px, 1fr));
+
+    gap: 20px;
+}
+
+.card {
+
+    background: #36414f;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    transition: .2s;
+}
+
+.card:hover {
+
+    transform: translateY(-4px);
+
+    background: #425061;
+}
+
+.item-img {
+
+    width: 100px;
+
+    display: block;
+
+    margin:
+    0 auto 15px auto;
+}
+
+.item-title {
+
+    font-size: 18px;
+
+    margin-bottom: 8px;
+
+    color: #f0d28b;
+}
+
+.item-name {
+
+    margin-bottom: 15px;
+
+    color: #d5d5d5;
+}
+
+.prices {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+.price {
+
+    padding: 6px 10px;
+
+    border-radius: 6px;
+
+    font-weight: bold;
+
+    font-size: 14px;
+}
+
+/* =========================
+   CORES CIDADES
+========================= */
+
+.thetford {
+
+    background: #8f3fb0;
+}
+
+.bridgewatch {
+
+    background: #df7a1d;
+}
+
+.martlock {
+
+    background: #5f87b8;
+}
+
+.lymhurst {
+
+    background: #8ea83b;
+}
+
+.caerleon {
+
+    background: #111;
+}
+
+.fortsterling {
+
+    background: #d8d2c8;
+
+    color: black;
+}

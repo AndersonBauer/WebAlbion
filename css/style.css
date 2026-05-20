@@ -13,7 +13,7 @@
 ========================= */
 
 body {
-
+    
     background:
         linear-gradient(rgba(10,10,10,0.92), rgba(10,10,10,0.96)),
         url("https://images.albiononline.com/uploads/media/default/media/5d5d0d3f0f6d3.jpg");
@@ -24,13 +24,15 @@ body {
 
     background-attachment: fixed;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Trebuchet MS", "Segoe UI", sans-serif;
 
     color: #f2e6c9;
 
     min-height: 100vh;
 
     padding: 30px;
+
+    font-family: "Cinzel", serif;
 }
 
 /* =========================
@@ -312,18 +314,30 @@ body {
 
     flex-wrap: wrap;
 
-    gap: 8px;
+    gap: 10px;
 }
 
 .price {
 
-    padding: 6px 10px;
+    display: inline-flex;
 
-    border-radius: 6px;
+    align-items: center;
 
-    font-size: 12px;
+    gap: 8px;
+
+    padding: 8px 14px;
+
+    border-radius: 999px;
+
+    font-size: 14px;
 
     font-weight: bold;
+
+    width: auto;
+
+    flex: 0 0 auto;
+
+    max-width: fit-content;
 }
 
 /* =========================
@@ -355,6 +369,47 @@ body {
     background: #d8d2c8;
     color: black;
 }   
+
+.back-button {
+
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #5b593f;
+
+    border: 2px solid rgba(255, 255, 255, 0.08);
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+    text-decoration: none;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.back-button:hover {
+
+    background: #4e371c;
+
+    transform: scale(1.05);
+}
+
+.back-button img {
+
+    width: 28px ;
+    height: 28px;
+
+    object-fit: contain;
+
+    pointer-events: none;
+}
 
 /* =========================
    RESPONSIVO

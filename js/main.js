@@ -1,5 +1,7 @@
 const container = document.getElementById("cards-container");
 
+import { mercado } from "./data.js";
+
 const searchInput =
 document.getElementById("search-input");
 
@@ -48,25 +50,30 @@ const imagensCategorias = {
 function gerarImagem(item) {
 
     const base =
-    "https://db.albiononline.com.br/wp-content/themes/albiondata/db/images/itensg/";
+    "https://render.albiononline.com/v1/item/";
 
+    // Procura categoria
     const categoria =
     imagensCategorias[item.categoria];
 
+    // Se não existir
     if (!categoria) {
         return "";
     }
 
+    // Nome base
     let nome =
     `T${item.tier}_${categoria}`;
 
+    // Encantamento
     if (item.encantamento > 0) {
 
         nome +=
-        `_LEVEL${item.encantamento}@${item.encantamento}`;
+        `_LEVEL${item.encantamento}`;
     }
 
-    return `${base}${nome}.png`;
+    // Retorna imagem
+    return `${base}${nome}`;
 }
 
 // ===============================
@@ -94,25 +101,25 @@ function criarCards(lista) {
             <div class="item-content">
 
                 <div class="item-title">
+
                     ${item.categoria.toUpperCase()}
+
                 </div>
 
                 <div class="item-name">
+
                     T${item.tier}.${item.encantamento}
-                </div>
-
-                <div class="prices">
-
-                    ${Object.entries(item.precos || {}).map(([cidade, valor]) => `
-                        <div class="price ${cidade.toLowerCase()}">
-                            ${valor.toLocaleString()}
-                        </div>
-                    `).join("")}
 
                 </div>
 
             </div>
         `;
+        card.addEventListener("click", () => {
+
+    window.location.href =
+    `../Pages/item.html?id=${item.id}`;
+
+});
 
         container.appendChild(card);
     });
