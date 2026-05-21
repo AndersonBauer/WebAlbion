@@ -5,7 +5,8 @@ export const CouroCru = [
     tier: 2,
     encantamento: 0,
     precos: {
-      "Thetford": 30
+      "Thetford": 30,
+      "Lymhurst": 74
     }
   },
 
@@ -15,7 +16,8 @@ export const CouroCru = [
     tier: 3,
     encantamento: 0,
     precos: {
-      "Thetford": 103
+      "Thetford": 103,
+      "Lymhurst": 90
     }
   },
 
@@ -25,7 +27,8 @@ export const CouroCru = [
     tier: 4,
     encantamento: 0,
     precos: {
-      "Thetford": 115
+      "Thetford": 115,
+      "Lymhurst": 90
     }
   },
 
@@ -35,7 +38,8 @@ export const CouroCru = [
     tier: 4,
     encantamento: 1,
     precos: {
-      "Thetford": 192
+      "Thetford": 192,
+      "Lymhurst": 155
     }
   },
 
@@ -45,7 +49,8 @@ export const CouroCru = [
     tier: 4,
     encantamento: 2,
     precos: {
-      "Thetford": 1377
+      "Thetford": 1377,
+      "Lymhurst": 1179
     }
   },
 
@@ -55,7 +60,8 @@ export const CouroCru = [
     tier: 4,
     encantamento: 3,
     precos: {
-      "Thetford": 6355
+      "Thetford": 6355,
+      "Lymhurst": 6400
     }
   },
 
@@ -65,7 +71,8 @@ export const CouroCru = [
     tier: 4,
     encantamento: 4,
     precos: {
-      "Thetford": 40012
+      "Thetford": 40012,
+      "Lymhurst": 38500
     }
   },
 
@@ -75,7 +82,8 @@ export const CouroCru = [
     tier: 5,
     encantamento: 0,
     precos: {
-      "Thetford": 540
+      "Thetford": 540,
+      "Lymhurst": 502
     }
   },
 
@@ -85,7 +93,8 @@ export const CouroCru = [
     tier: 5,
     encantamento: 1,
     precos: {
-      "Thetford": 779
+      "Thetford": 779,
+      "Lymhurst": 770
     }
   },
 
@@ -95,7 +104,8 @@ export const CouroCru = [
     tier: 5,
     encantamento: 2,
     precos: {
-      "Thetford": 2987
+      "Thetford": 2987,
+      "Lymhurst": 2950
     }
   },
 
@@ -105,7 +115,8 @@ export const CouroCru = [
     tier: 5,
     encantamento: 3,
     precos: {
-      "Thetford": 12000
+      "Thetford": 12000,
+      "Lymhurst": 12900
     }
   },
 
@@ -115,7 +126,8 @@ export const CouroCru = [
     tier: 5,
     encantamento: 4,
     precos: {
-      "Thetford": 49997
+      "Thetford": 49999,
+      "Lymhurst": 49999
     }
   },
 
@@ -125,7 +137,8 @@ export const CouroCru = [
     tier: 6,
     encantamento: 0,
     precos: {
-      "Thetford": 1479
+      "Thetford": 1479,
+      "Lymhurst": 1540
     }
   },
 
@@ -135,7 +148,8 @@ export const CouroCru = [
     tier: 6,
     encantamento: 1,
     precos: {
-      "Thetford": 2880
+      "Thetford": 2880,
+      "Lymhurst": 2750
     }
   },
 
@@ -145,7 +159,8 @@ export const CouroCru = [
     tier: 6,
     encantamento: 2,
     precos: {
-      "Thetford": 9402
+      "Thetford": 9402,
+      "Lymhurst": 8488
     }
   },
 
@@ -155,7 +170,8 @@ export const CouroCru = [
     tier: 6,
     encantamento: 3,
     precos: {
-      "Thetford": 36392
+      "Thetford": 36392,
+      "Lymhurst": 35380
     }
   },
 
@@ -165,7 +181,8 @@ export const CouroCru = [
     tier: 6,
     encantamento: 4,
     precos: {
-      "Thetford": 132867
+      "Thetford": 132867,
+      "Lymhurst": 137500
     }
   },
 
@@ -175,7 +192,8 @@ export const CouroCru = [
     tier: 7,
     encantamento: 0,
     precos: {
-      "Thetford": 4297
+      "Thetford": 4297,
+      "Lymhurst": 4510
     }
   },
 
@@ -185,7 +203,8 @@ export const CouroCru = [
     tier: 7,
     encantamento: 1,
     precos: {
-      "Thetford": 10842
+      "Thetford": 10842,
+      "Lymhurst": 9290
     }
   },
 
@@ -195,7 +214,8 @@ export const CouroCru = [
     tier: 7,
     encantamento: 2,
     precos: {
-      "Thetford": 28697
+      "Thetford": 28697,
+      "Lymhurst": 26500
     }
   },
 
@@ -205,7 +225,8 @@ export const CouroCru = [
     tier: 7,
     encantamento: 3,
     precos: {
-      "Thetford": 94980
+      "Thetford": 94980,
+      "Lymhurst": 92500
     }
   },
 
@@ -215,7 +236,8 @@ export const CouroCru = [
     tier: 7,
     encantamento: 4,
     precos: {
-      "Thetford": 699997
+      "Thetford": 699997,
+      "Lymhurst": 320000
     }
   },
 
@@ -225,7 +247,8 @@ export const CouroCru = [
     tier: 8,
     encantamento: 0,
     precos: {
-      "Thetford": 12199
+      "Thetford": 12199,
+      "Lymhurst": 11150
     }
   },
 
@@ -235,7 +258,8 @@ export const CouroCru = [
     tier: 8,
     encantamento: 1,
     precos: {
-      "Thetford": 27154
+      "Thetford": 27154,
+      "Lymhurst": 28500
     }
   },
 
@@ -245,7 +269,8 @@ export const CouroCru = [
     tier: 8,
     encantamento: 2,
     precos: {
-      "Thetford": 98960
+      "Thetford": 98960,
+      "Lymhurst": 90000
     }
   },
 
@@ -255,7 +280,8 @@ export const CouroCru = [
     tier: 8,
     encantamento: 3,
     precos: {
-      "Thetford": 1349985
+      "Thetford": 1349985,
+      "Lymhurst": 324078
     }
   },
 
@@ -265,7 +291,8 @@ export const CouroCru = [
     tier: 8,
     encantamento: 4,
     precos: {
-      "Thetford": 1280000
+      "Thetford": 1280000,
+      "Lymhurst": 1299979
     }
   }
-]
+];

@@ -6,6 +6,7 @@ export const Tabua = [
     encantamento: 0,
     precos: {
       "Thetford": 25,
+      "Lymhurst": 35
     },
     craft: [
       {id: "TRONCO_T2_E0", quantidade: 1}
@@ -19,6 +20,7 @@ export const Tabua = [
     encantamento: 0,
     precos: {
       "Thetford": 220,
+      "Lymhurst": 220
     },
     craft: [
       {id: "TRONCO_T3_E0", quantidade: 2},
@@ -34,7 +36,8 @@ export const Tabua = [
     tier: 4,
     encantamento: 0,
     precos: {
-      "Thetford": 295
+      "Thetford": 295,
+      "Lymhurst": 316
     },
     craft: [
       {id: "TRONCO_T4_E0", quantidade: 2},
@@ -48,7 +51,8 @@ export const Tabua = [
     tier: 4,
     encantamento: 1,
     precos: {
-      "Thetford": 390
+      "Thetford": 390,
+      "Lymhurst": 390
     },
     craft: [
       {id: "TRONCO_T4_E1", quantidade: 2},
@@ -62,7 +66,8 @@ export const Tabua = [
     tier: 4,
     encantamento: 2,
     precos: {
-      "Thetford": 1266
+      "Thetford": 1266,
+      "Lymhurst": 1399
     },
     craft: [
       {id: "TRONCO_T4_E2", quantidade: 2},
@@ -76,7 +81,8 @@ export const Tabua = [
     tier: 4,
     encantamento: 3,
     precos: {
-      "Thetford": 7273
+      "Thetford": 7273,
+      "Lymhurst": 8000
     },
     craft: [
       {id: "TRONCO_T4_E3", quantidade: 2},
@@ -90,7 +96,8 @@ export const Tabua = [
     tier: 4,
     encantamento: 4,
     precos: {
-      "Thetford": 43100
+      "Thetford": 43100,
+      "Lymhurst": 41960
     },
     craft: [
       {id: "TRONCO_T4_E4", quantidade: 2},
@@ -106,7 +113,8 @@ export const Tabua = [
     tier: 5,
     encantamento: 0,
     precos: {
-      "Thetford": 845
+      "Thetford": 845,
+      "Lymhurst": 830
     },
     craft: [
       {id: "TRONCO_T5_E0", quantidade: 3},
@@ -120,7 +128,8 @@ export const Tabua = [
     tier: 5,
     encantamento: 1,
     precos: {
-      "Thetford": 1225
+      "Thetford": 1225,
+      "Lymhurst": 1297
     },
     craft: [
       {id: "TRONCO_T5_E1", quantidade: 3},
@@ -134,7 +143,8 @@ export const Tabua = [
     tier: 5,
     encantamento: 2,
     precos: {
-      "Thetford": 5057
+      "Thetford": 5057,
+      "Lymhurst": 5079
     },
     craft: [
       {id: "TRONCO_T5_E2", quantidade: 3},
@@ -148,7 +158,8 @@ export const Tabua = [
     tier: 5,
     encantamento: 3,
     precos: {
-      "Thetford": 26988
+      "Thetford": 26988,
+      "Lymhurst": 26999
     },
     craft: [
       {id: "TRONCO_T5_E3", quantidade: 3},
@@ -162,7 +173,8 @@ export const Tabua = [
     tier: 5,
     encantamento: 4,
     precos: {
-      "Thetford": 132000
+      "Thetford": 132000,
+      "Lymhurst": 149999
     },
     craft: [
       {id: "TRONCO_T5_E4", quantidade: 3},
@@ -178,7 +190,8 @@ export const Tabua = [
     tier: 6,
     encantamento: 0,
     precos: {
-      "Thetford": 2925
+      "Thetford": 2925,
+      "Lymhurst": 2950
     },
     craft: [
       {id: "TRONCO_T6_E0", quantidade: 4},
@@ -192,7 +205,8 @@ export const Tabua = [
     tier: 6,
     encantamento: 1,
     precos: {
-      "Thetford": 5858
+      "Thetford": 5858,
+      "Lymhurst": 5699
     },
     craft: [
       {id: "TRONCO_T6_E1", quantidade: 4},
@@ -206,7 +220,8 @@ export const Tabua = [
     tier: 6,
     encantamento: 2,
     precos: {
-      "Thetford": 21507
+      "Thetford": 21507,
+      "Lymhurst": 21200
     },
     craft: [
       {id: "TRONCO_T6_E2", quantidade: 4},
@@ -220,7 +235,8 @@ export const Tabua = [
     tier: 6,
     encantamento: 3,
     precos: {
-      "Thetford": 89980
+      "Thetford": 89980,
+      "Lymhurst": 82880
     },
     craft: [
       {id: "TRONCO_T6_E3", quantidade: 4},
@@ -234,7 +250,8 @@ export const Tabua = [
     tier: 6,
     encantamento: 4,
     precos: {
-      "Thetford": 0
+      "Thetford": 0,
+      "Lymhurst": 364570
     },
     craft: [
       {id: "TRONCO_T6_E4", quantidade: 4},
@@ -250,7 +267,8 @@ export const Tabua = [
     tier: 7,
     encantamento: 0,
     precos: {
-      "Thetford": 10994
+      "Thetford": 10994,
+      "Lymhurst": 10699
     },
     craft: [
       {id: "TRONCO_T7_E0", quantidade: 5},
@@ -264,7 +282,8 @@ export const Tabua = [
     tier: 7,
     encantamento: 1,
     precos: {
-      "Thetford": 19291
+      "Thetford": 19291,
+      "Lymhurst": 18900
     },
     craft: [
       {id: "TRONCO_T7_E1", quantidade: 5},
@@ -278,7 +297,8 @@ export const Tabua = [
     tier: 7,
     encantamento: 2,
     precos: {
-      "Thetford": 71496
+      "Thetford": 71496,
+      "Lymhurst": 66365
     },
     craft: [
       {id: "TRONCO_T7_E2", quantidade: 5},
@@ -292,7 +312,8 @@ export const Tabua = [
     tier: 7,
     encantamento: 3,
     precos: {
-      "Thetford": 257444
+      "Thetford": 257444,
+      "Lymhurst": 259990
     },
     craft: [
       {id: "TRONCO_T7_E3", quantidade: 5},
@@ -306,7 +327,8 @@ export const Tabua = [
     tier: 7,
     encantamento: 4,
     precos: {
-      "Thetford": 8257
+      "Thetford": 8257,
+      "Lymhurst": 1200000
     },
     craft: [
       {id: "TRONCO_T7_E4", quantidade: 5},
@@ -322,7 +344,8 @@ export const Tabua = [
     tier: 8,
     encantamento: 0,
     precos: {
-      "Thetford": 38996
+      "Thetford": 38996,
+      "Lymhurst": 37299
     },
     craft: [
       {id: "TRONCO_T8_E0", quantidade: 5},
@@ -336,7 +359,8 @@ export const Tabua = [
     tier: 8,
     encantamento: 1,
     precos: {
-      "Thetford": 50000
+      "Thetford": 50000,
+      "Lymhurst": 57285
     },
     craft: [
       {id: "TRONCO_T8_E1", quantidade: 5},
@@ -350,7 +374,8 @@ export const Tabua = [
     tier: 8,
     encantamento: 2,
     precos: {
-      "Thetford": 230000
+      "Thetford": 230000,
+      "Lymhurst": 208999
     },
     craft: [
       {id: "TRONCO_T8_E2", quantidade: 5},
@@ -364,7 +389,8 @@ export const Tabua = [
     tier: 8,
     encantamento: 3,
     precos: {
-      "Thetford": 676665
+      "Thetford": 676665,
+      "Lymhurst": 674950
     },
     craft: [
       {id: "TRONCO_T8_E3", quantidade: 5},
@@ -378,7 +404,8 @@ export const Tabua = [
     tier: 8,
     encantamento: 4,
     precos: {
-      "Thetford": 3449997
+      "Thetford": 3449997,
+      "Lymhurst": 3500000
     },
     craft: [
       {id: "TRONCO_T8_E4", quantidade: 5},

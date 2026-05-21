@@ -5,7 +5,8 @@ export const Pedra = [
       tier: 2,
       encantamento: 0,
       precos: {
-        "Thetford": 82
+        "Thetford": 82,
+        "Lymhurst": 76
       }
   },
 
@@ -15,7 +16,8 @@ export const Pedra = [
     tier: 3,
     encantamento: 0,
     precos: {
-      "Thetford": 78
+      "Thetford": 78,
+      "Lymhurst": 84
     }
   },
 
@@ -25,7 +27,8 @@ export const Pedra = [
     tier: 4,
     encantamento: 0,
     precos: {
-      "Thetford": 9
+      "Thetford": 9,
+      "Lymhurst": 10
     }
   },
 
@@ -35,7 +38,8 @@ export const Pedra = [
     tier: 4,
     encantamento: 1,
     precos: {
-      "Thetford": 8
+      "Thetford": 8,
+      "Lymhurst": 10
     }
   },
 
@@ -45,7 +49,8 @@ export const Pedra = [
     tier: 4,
     encantamento: 2,
     precos: {
-      "Thetford": 10
+      "Thetford": 10,
+      "Lymhurst": 41
     }
   },
 
@@ -55,7 +60,8 @@ export const Pedra = [
     tier: 4,
     encantamento: 3,
     precos: {
-      "Thetford": 32
+      "Thetford": 32,
+      "Lymhurst": 350
     }
   },
 
@@ -65,7 +71,8 @@ export const Pedra = [
     tier: 5,
     encantamento: 0,
     precos: {
-      "Thetford": 76
+      "Thetford": 76,
+      "Lymhurst": 84
     }
   },
 
@@ -75,7 +82,8 @@ export const Pedra = [
     tier: 5,
     encantamento: 1,
     precos: {
-      "Thetford": 118
+      "Thetford": 118,
+      "Lymhurst": 110
     }
   },
 
@@ -85,7 +93,8 @@ export const Pedra = [
     tier: 5,
     encantamento: 2,
     precos: {
-      "Thetford": 253
+      "Thetford": 253,
+      "Lymhurst": 270
     }
   },
 
@@ -95,7 +104,8 @@ export const Pedra = [
     tier: 5,
     encantamento: 3,
     precos: {
-      "Thetford": 55
+      "Thetford": 55,
+      "Lymhurst": 945
     }
   },
 
@@ -105,7 +115,8 @@ export const Pedra = [
     tier: 6,
     encantamento: 0,
     precos: {
-      "Thetford": 505
+      "Thetford": 505,
+      "Lymhurst": 500
     }
   },
 
@@ -115,7 +126,8 @@ export const Pedra = [
     tier: 6,
     encantamento: 1,
     precos: {
-      "Thetford": 734
+      "Thetford": 734,
+      "Lymhurst": 720
     }
   },
 
@@ -125,7 +137,8 @@ export const Pedra = [
     tier: 6,
     encantamento: 2,
     precos: {
-      "Thetford": 1681
+      "Thetford": 1681,
+      "Lymhurst": 1510
     }
   },
 
@@ -135,7 +148,8 @@ export const Pedra = [
     tier: 6,
     encantamento: 3,
     precos: {
-      "Thetford": 2518
+      "Thetford": 2518,
+      "Lymhurst": 2995
     }
   },
 
@@ -145,7 +159,8 @@ export const Pedra = [
     tier: 7,
     encantamento: 0,
     precos: {
-      "Thetford": 1795
+      "Thetford": 1795,
+      "Lymhurst": 1910
     }
   },
 
@@ -155,7 +170,8 @@ export const Pedra = [
     tier: 7,
     encantamento: 1,
     precos: {
-      "Thetford": 3779
+      "Thetford": 3779,
+      "Lymhurst": 3866
     }
   },
 
@@ -165,7 +181,8 @@ export const Pedra = [
     tier: 7,
     encantamento: 2,
     precos: {
-      "Thetford": 7993
+      "Thetford": 7993,
+      "Lymhurst": 8100
     }
   },
 
@@ -175,7 +192,8 @@ export const Pedra = [
     tier: 7,
     encantamento: 3,
     precos: {
-      "Thetford": 21580
+      "Thetford": 21580,
+      "Lymhurst": 15000
     }
   },
 
@@ -185,7 +203,8 @@ export const Pedra = [
     tier: 8,
     encantamento: 0,
     precos: {
-      "Thetford": 9019
+      "Thetford": 9019,
+      "Lymhurst": 9899
     }
   },
 
@@ -195,7 +214,8 @@ export const Pedra = [
     tier: 8,
     encantamento: 1,
     precos: {
-      "Thetford": 17753
+      "Thetford": 17753,
+      "Lymhurst": 19950
     }
   },
 
@@ -205,7 +225,8 @@ export const Pedra = [
     tier: 8,
     encantamento: 2,
     precos: {
-      "Thetford": 50973
+      "Thetford": 50973,
+      "Lymhurst": 69999
     }
   },
 
@@ -215,7 +236,8 @@ export const Pedra = [
     tier: 8,
     encantamento: 3,
     precos: {
-      "Thetford": 93998
+      "Thetford": 93998,
+      "Lymhurst": 93000
     }
   }
 ]

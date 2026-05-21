@@ -5,7 +5,8 @@ export const Minerio = [
     tier: 2,
     encantamento: 0,
     precos: {
-      "Thetford": 41
+      "Thetford": 41,
+      "Lymhurst": 25
     }
   },
 
@@ -15,7 +16,8 @@ export const Minerio = [
     tier: 3,
     encantamento: 0,
     precos: {
-      "Thetford": 118
+      "Thetford": 118,
+      "Lymhurst": 82
     }
   },
 
@@ -25,7 +27,8 @@ export const Minerio = [
     tier: 4,
     encantamento: 0,
     precos: {
-      "Thetford": 126
+      "Thetford": 126,
+      "Lymhurst": 102
     }
   },
 
@@ -35,7 +38,8 @@ export const Minerio = [
     tier: 4,
     encantamento: 1,
     precos: {
-      "Thetford": 276
+      "Thetford": 276,
+      "Lymhurst": 238
     }
   },
 
@@ -45,7 +49,8 @@ export const Minerio = [
     tier: 4,
     encantamento: 2,
     precos: {
-      "Thetford": 1187
+      "Thetford": 1187,
+      "Lymhurst": 1179
     }
   },
 
@@ -54,8 +59,10 @@ export const Minerio = [
     categoria: "minerio",
     tier: 4,
     encantamento: 3,
-    cidade: "Thetford",
-    valor: 5999
+    precos: {
+      "Thetford": 5999,
+      "Lymhurst": 5180
+    }
   },
 
   {
@@ -64,7 +71,8 @@ export const Minerio = [
     tier: 4,
     encantamento: 4,
     precos: {
-      "Thetford": 38970
+      "Thetford": 38970,
+      "Lymhurst": 39999
     }
   },
 
@@ -74,7 +82,8 @@ export const Minerio = [
     tier: 5,
     encantamento: 0,
     precos: {
-      "Thetford": 397
+      "Thetford": 397,
+      "Lymhurst": 406
     }
   },
 
@@ -84,7 +93,8 @@ export const Minerio = [
     tier: 5,
     encantamento: 1,
     precos: {
-      "Thetford": 687
+      "Thetford": 687,
+      "Lymhurst": 615
     }
   },
 
@@ -94,7 +104,8 @@ export const Minerio = [
     tier: 5,
     encantamento: 2,
     precos: {
-      "Thetford": 2524
+      "Thetford": 2524,
+      "Lymhurst": 2283
     }
   },
 
@@ -104,7 +115,8 @@ export const Minerio = [
     tier: 5,
     encantamento: 3,
     precos: {
-      "Thetford": 14463
+      "Thetford": 14463,
+      "Lymhurst": 12500
     }
   },
 
@@ -114,7 +126,8 @@ export const Minerio = [
     tier: 5,
     encantamento: 4,
     precos: {
-      "Thetford": 58991
+      "Thetford": 58991,
+      "Lymhurst": 51800
     }
   },
   
@@ -124,7 +137,8 @@ export const Minerio = [
     tier: 6,
     encantamento: 0,
     precos: {
-      "Thetford": 843
+      "Thetford": 843,
+      "Lymhurst": 861
     }
   },
 
@@ -134,7 +148,8 @@ export const Minerio = [
     tier: 6,
     encantamento: 1,
     precos: {
-      "Thetford": 1925
+      "Thetford": 1925,
+      "Lymhurst": 2050
     }
   },
 
@@ -144,7 +159,8 @@ export const Minerio = [
     tier: 6,
     encantamento: 2,
     precos: {
-      "Thetford": 10496
+      "Thetford": 10496,
+      "Lymhurst": 8885
     }
   },
 
@@ -154,7 +170,8 @@ export const Minerio = [
     tier: 6,
     encantamento: 3,
     precos: {
-      "Thetford": 35498
+      "Thetford": 35498,
+      "Lymhurst": 34862
     }
   },
 
@@ -164,7 +181,8 @@ export const Minerio = [
     tier: 6,
     encantamento: 4,
     precos: {
-      "Thetford": 153960
+      "Thetford": 153960,
+      "Lymhurst": 149870
     }
   },
 
@@ -174,7 +192,8 @@ export const Minerio = [
     tier: 7,
     encantamento: 0,
     precos: {
-      "Thetford": 2048
+      "Thetford": 2048,
+      "Lymhurst": 1809
     }
   },
 
@@ -184,7 +203,8 @@ export const Minerio = [
     tier: 7,
     encantamento: 1,
     precos: {
-      "Thetford": 7207
+      "Thetford": 7207,
+      "Lymhurst": 6790
     }
   },
 
@@ -194,7 +214,8 @@ export const Minerio = [
     tier: 7,
     encantamento: 2,
     precos: {
-      "Thetford": 26497
+      "Thetford": 26497,
+      "Lymhurst": 23030
     }
   },
 
@@ -204,7 +225,8 @@ export const Minerio = [
     tier: 7,
     encantamento: 3,
     precos: {
-      "Thetford": 90974
+      "Thetford": 90974,
+      "Lymhurst": 150000
     }
   },
 
@@ -214,7 +236,8 @@ export const Minerio = [
     tier: 7,
     encantamento: 4,
     precos: {
-      "Thetford": 339980
+      "Thetford": 339980,
+      "Lymhurst": 0
     }
   },
 
@@ -224,7 +247,8 @@ export const Minerio = [
     tier: 8,
     encantamento: 0,
     precos: {
-      "Thetford": 8561
+      "Thetford": 8561,
+      "Lymhurst": 8120
     }
   },
 
@@ -234,7 +258,8 @@ export const Minerio = [
     tier: 8,
     encantamento: 1,
     precos: {
-      "Thetford": 27384
+      "Thetford": 27384,
+      "Lymhurst": 24430
     }
   },
 
@@ -244,7 +269,8 @@ export const Minerio = [
     tier: 8,
     encantamento: 2,
     precos: {
-      "Thetford": 84199
+      "Thetford": 84199,
+      "Lymhurst": 83950
     }
   },
 
@@ -254,7 +280,8 @@ export const Minerio = [
     tier: 8,
     encantamento: 3,
     precos: {
-      "Thetford": 265000
+      "Thetford": 265000,
+      "Lymhurst": 299830
     }
   },
 
@@ -264,7 +291,8 @@ export const Minerio = [
     tier: 8,
     encantamento: 4,
     precos: {
-      "Thetford": 1299989
+      "Thetford": 1299989,
+      "Lymhurst": 1180000
     }
   }
 ]

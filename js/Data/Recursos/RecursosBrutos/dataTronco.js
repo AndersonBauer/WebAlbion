@@ -5,7 +5,8 @@ export const Tronco = [
     tier: 2,
     encantamento: 0,
     precos: {
-      "Thetford": 44
+      "Thetford": 44,
+      "Lymhurst": 39,
     }
   },
 
@@ -15,7 +16,8 @@ export const Tronco = [
     tier: 3,
     encantamento: 0,
     precos: {
-      "Thetford": 95
+      "Thetford": 95,
+      "Lymhurst": 104,
     }
   },
 
@@ -27,7 +29,8 @@ export const Tronco = [
     tier: 4,
     encantamento: 0,
     precos: {
-      "Thetford": 84
+      "Thetford": 84,
+      "Lymhurst": 94
     }
   },
 
@@ -37,7 +40,8 @@ export const Tronco = [
     tier: 4,
     encantamento: 1,
     precos: {
-      "Thetford": 140
+      "Thetford": 140,
+      "Lymhurst": 133
     }
   },
 
@@ -47,7 +51,8 @@ export const Tronco = [
     tier: 4,
     encantamento: 2,
     precos: {
-      "Thetford": 630
+      "Thetford": 630,
+      "Lymhurst": 728
     }
   },
 
@@ -57,7 +62,8 @@ export const Tronco = [
     tier: 4,
     encantamento: 3,
     precos: {
-      "Thetford": 4892
+      "Thetford": 4892,
+      "Lymhurst": 5609
     }
   },
 
@@ -67,7 +73,8 @@ export const Tronco = [
     tier: 4,
     encantamento: 4,
     precos: {
-      "Thetford": 37776
+      "Thetford": 37776,
+      "Lymhurst": 39784
     }
   },
 
@@ -79,7 +86,8 @@ export const Tronco = [
     tier: 5,
     encantamento: 0,
     precos: {
-      "Thetford": 272
+      "Thetford": 272,
+      "Lymhurst": 275
     }
   },
 
@@ -89,7 +97,8 @@ export const Tronco = [
     tier: 5,
     encantamento: 1,
     precos: {
-      "Thetford": 376
+      "Thetford": 376,
+      "Lymhurst": 381
     }
   },
 
@@ -99,7 +108,8 @@ export const Tronco = [
     tier: 5,
     encantamento: 2,
     precos: {
-      "Thetford": 1375
+      "Thetford": 1375,
+      "Lymhurst": 1798
     }
   },
 
@@ -109,7 +119,8 @@ export const Tronco = [
     tier: 5,
     encantamento: 3,
     precos: {
-      "Thetford": 10486
+      "Thetford": 10486,
+      "Lymhurst": 10500
     }
   },
 
@@ -119,7 +130,8 @@ export const Tronco = [
     tier: 5,
     encantamento: 4,
     precos: {
-      "Thetford": 56969
+      "Thetford": 56969,
+      "Lymhurst": 54978
     }
   },
 
@@ -131,7 +143,8 @@ export const Tronco = [
     tier: 6,
     encantamento: 0,
     precos: {
-      "Thetford": 724
+      "Thetford": 724,
+      "Lymhurst": 750
     }
   },
 
@@ -141,7 +154,8 @@ export const Tronco = [
     tier: 6,
     encantamento: 1,
     precos: {
-      "Thetford": 1269
+      "Thetford": 1269,
+      "Lymhurst": 1400
     }
   },
 
@@ -151,7 +165,8 @@ export const Tronco = [
     tier: 6,
     encantamento: 2,
     precos: {
-      "Thetford": 6062
+      "Thetford": 6062,
+      "Lymhurst": 6650
     }
   },
 
@@ -161,7 +176,8 @@ export const Tronco = [
     tier: 6,
     encantamento: 3,
     precos: {
-      "Thetford": 31710
+      "Thetford": 31710,
+      "Lymhurst": 30500
     }
   },
 
@@ -171,7 +187,8 @@ export const Tronco = [
     tier: 6,
     encantamento: 4,
     precos: {
-      "Thetford": 157999
+      "Thetford": 157999,
+      "Lymhurst": 146118
     }
   },
 
@@ -183,7 +200,8 @@ export const Tronco = [
     tier: 7,
     encantamento: 0,
     precos: {
-      "Thetford": 2667
+      "Thetford": 2667,
+      "Lymhurst": 2835
     }
   },
 
@@ -193,7 +211,8 @@ export const Tronco = [
     tier: 7,
     encantamento: 1,
     precos: {
-      "Thetford": 4160
+      "Thetford": 4160,
+      "Lymhurst": 3691
     }
   },
 
@@ -202,7 +221,8 @@ export const Tronco = [
     tier: 7,
     encantamento: 2,
     precos: {
-      "Thetford": 18239
+      "Thetford": 18239,
+      "Lymhurst": 18495
     }
   },
 
@@ -211,7 +231,8 @@ export const Tronco = [
     tier: 7,
     encantamento: 3,
     precos: {
-      "Thetford": 78776
+      "Thetford": 78776,
+      "Lymhurst": 75000
     }
   },
 
@@ -221,7 +242,8 @@ export const Tronco = [
     tier: 7,
     encantamento: 4,
     precos: {
-      "Thetford": 0
+      "Thetford": 0,
+      "Lymhurst": 300000
     }
   },
 
@@ -233,7 +255,8 @@ export const Tronco = [
     tier: 8,
     encantamento: 0,
     precos: {
-      "Thetford": 10528
+      "Thetford": 10528,
+      "Lymhurst": 9830
     }
   },
 
@@ -243,7 +266,8 @@ export const Tronco = [
     tier: 8,
     encantamento: 1,
     precos: {
-      "Thetford": 17175
+      "Thetford": 17175,
+      "Lymhurst": 15700
     }
   },
 
@@ -253,7 +277,8 @@ export const Tronco = [
     tier: 8,
     encantamento: 2,
     precos: {
-      "Thetford": 67187
+      "Thetford": 67187,
+      "Lymhurst": 66000
     }
   },
 
@@ -263,7 +288,8 @@ export const Tronco = [
     tier: 8,
     encantamento: 3,
     precos: {
-      "Thetford": 279000
+      "Thetford": 279000,
+      "Lymhurst": 275000
     }
   },
 
@@ -273,7 +299,8 @@ export const Tronco = [
     tier: 8,
     encantamento: 4,
     precos: {
-      "Thetford": 1259998
+      "Thetford": 1259998,
+      "Lymhurst": 1260000
     }
   }
-]
+];

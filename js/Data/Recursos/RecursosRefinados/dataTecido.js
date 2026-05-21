@@ -5,7 +5,8 @@ export const Tecido = [
     tier: 2,
     encantamento: 0,
     precos: {
-      "Thetford": 20
+      "Thetford": 20,
+      "Lymhurst": 15
     },
     craft: [
       {id: "FIBRA_T2_E0", quantidade: 1}
@@ -18,7 +19,8 @@ export const Tecido = [
     tier: 3,
     encantamento: 0,
     precos: {
-      "Thetford": 160
+      "Thetford": 160,
+      "Lymhurst": 134
     },
     craft: [
       {id: "FIBRA_T3_E0", quantidade: 2},
@@ -32,7 +34,8 @@ export const Tecido = [
     tier: 4,
     encantamento: 0,
     precos: {
-      "Thetford": 281
+      "Thetford": 281,
+      "Lymhurst": 239
     },
     craft: [
       {id: "FIBRA_T4_E0", quantidade: 2},
@@ -46,7 +49,8 @@ export const Tecido = [
     tier: 4,
     encantamento: 1,
     precos: {
-      "Thetford": 405
+      "Thetford": 405,
+      "Lymhurst": 339
     },
     craft: [
       {id: "FIBRA_T4_E1", quantidade: 2},
@@ -60,7 +64,8 @@ export const Tecido = [
     tier: 4,
     encantamento: 2,
     precos: {
-      "Thetford": 2008
+      "Thetford": 2008,
+      "Lymhurst": 1715
     },
     craft: [
       {id: "FIBRA_T4_E2", quantidade: 2},
@@ -74,7 +79,8 @@ export const Tecido = [
     tier: 4,
     encantamento: 3,
     precos: {
-      "Thetford": 7792
+      "Thetford": 7792,
+      "Lymhurst": 7475
     },
     craft: [
       {id: "FIBRA_T4_E3", quantidade: 2},
@@ -88,7 +94,8 @@ export const Tecido = [
     tier: 4,
     encantamento: 4,
     precos: {
-      "Thetford": 42000
+      "Thetford": 42000,
+      "Lymhurst": 40100
     },
     craft: [
       {id: "FIBRA_T4_E4", quantidade: 2},
@@ -102,7 +109,8 @@ export const Tecido = [
     tier: 5,
     encantamento: 0,
     precos: {
-      "Thetford": 888
+      "Thetford": 888,
+      "Lymhurst": 888
     },
     craft: [
       {id: "FIBRA_T5_E0", quantidade: 3},
@@ -116,7 +124,8 @@ export const Tecido = [
     tier: 5,
     encantamento: 1,
     precos: {
-      "Thetford": 1730
+      "Thetford": 1730,
+      "Lymhurst": 1890
     },
     craft: [
       {id: "FIBRA_T5_E1", quantidade: 3},
@@ -130,7 +139,8 @@ export const Tecido = [
     tier: 5,
     encantamento: 2,
     precos: {
-      "Thetford": 4550
+      "Thetford": 4550,
+      "Lymhurst": 4379
     },
     craft: [
       {id: "FIBRA_T5_E2", quantidade: 3},
@@ -144,7 +154,8 @@ export const Tecido = [
     tier: 5,
     encantamento: 3,
     precos: {
-      "Thetford": 20967
+      "Thetford": 20967,
+      "Lymhurst": 19890
     },
     craft: [
       {id: "FIBRA_T5_E3", quantidade: 3},
@@ -158,7 +169,8 @@ export const Tecido = [
     tier: 5,
     encantamento: 4,
     precos: {
-      "Thetford": 103333
+      "Thetford": 103333,
+      "Lymhurst": 90070
     },
     craft: [
       {id: "FIBRA_T5_E4", quantidade: 3},
@@ -172,7 +184,8 @@ export const Tecido = [
     tier: 6,
     encantamento: 0,
     precos: {
-      "Thetford": 3455
+      "Thetford": 3455,
+      "Lymhurst": 3100
     },
     craft: [
       {id: "FIBRA_T6_E0", quantidade: 4},
@@ -186,7 +199,8 @@ export const Tecido = [
     tier: 6,
     encantamento: 1,
     precos: {
-      "Thetford": 5988
+      "Thetford": 5988,
+      "Lymhurst": 5450
     },
     craft: [
       {id: "FIBRA_T6_E1", quantidade: 4},
@@ -200,7 +214,8 @@ export const Tecido = [
     tier: 6,
     encantamento: 2,
     precos: {
-      "Thetford": 19849
+      "Thetford": 19849,
+      "Lymhurst": 16990
     },
     craft: [
       {id: "FIBRA_T6_E2", quantidade: 4},
@@ -214,7 +229,8 @@ export const Tecido = [
     tier: 6,
     encantamento: 3,
     precos: {
-      "Thetford": 52988
+      "Thetford": 52988,
+      "Lymhurst": 47000
     },
     craft: [
       {id: "FIBRA_T6_E3", quantidade: 4},
@@ -228,7 +244,8 @@ export const Tecido = [
     tier: 6,
     encantamento: 1,
     precos: {
-      "Thetford": 274975
+      "Thetford": 274975,
+      "Lymhurst": 270999
     },
     craft: [
       {id: "FIBRA_T6_E4", quantidade: 4},
@@ -242,7 +259,8 @@ export const Tecido = [
     tier: 7,
     encantamento: 0,
     precos: {
-      "Thetford": 7962
+      "Thetford": 7962,
+      "Lymhurst": 8050
     },
     craft: [
       {id: "FIBRA_T7_E0", quantidade: 5},
@@ -256,7 +274,8 @@ export const Tecido = [
     tier: 7,
     encantamento: 1,
     precos: {
-      "Thetford": 21893
+      "Thetford": 21893,
+      "Lymhurst": 19490
     },
     craft: [
       {id: "FIBRA_T7_E1", quantidade: 5},
@@ -270,7 +289,8 @@ export const Tecido = [
     tier: 7,
     encantamento: 2,
     precos: {
-      "Thetford": 53847
+      "Thetford": 53847,
+      "Lymhurst": 50500
     },
     craft: [
       {id: "FIBRA_T7_E2", quantidade: 5},
@@ -284,7 +304,8 @@ export const Tecido = [
     tier: 7,
     encantamento: 3,
     precos: {
-      "Thetford": 206991
+      "Thetford": 206991,
+      "Lymhurst": 200425
     },
     craft: [
       {id: "FIBRA_T7_E3", quantidade: 5},
@@ -299,7 +320,7 @@ export const Tecido = [
     encantamento: 4,
     precos: {
       "Thetford": 829988,
-      "Lymhurst": 999999
+      "Lymhurst": 849999
     },
     craft: [
       {id: "FIBRA_T7_E4", quantidade: 5},
@@ -313,7 +334,8 @@ export const Tecido = [
     tier: 8,
     encantamento: 0,
     precos: {
-      "Thetford": 0
+      "Thetford": 0,
+      "Lymhurst": 28900
     },
     craft: [
       {id: "FIBRA_T8_E0", quantidade: 5},
@@ -327,7 +349,8 @@ export const Tecido = [
     tier: 8,
     encantamento: 1,
     precos: {
-      "Thetford": 69990
+      "Thetford": 69990,
+      "Lymhurst": 67480
     },
     craft: [
       {id: "FIBRA_T8_E1", quantidade: 5},
@@ -341,13 +364,13 @@ export const Tecido = [
     tier: 8,
     encantamento: 2,
     precos: {
-      "Thetford": 207997
+      "Thetford": 207997,
+      "Lymhurst": 213935
     },
     craft: [
       {id: "FIBRA_T8_E2", quantidade: 5},
       {id: "TECIDO_T7_E2", quantidade: 1}
     ]
-
   },
 
   {
@@ -356,7 +379,8 @@ export const Tecido = [
     tier: 8,
     encantamento: 3,
     precos: {
-      "Thetford": 679997
+      "Thetford": 679997,
+      "Lymhurst": 674880
     },
     craft: [
       {id: "FIBRA_T8_E3", quantidade: 5},
@@ -370,7 +394,8 @@ export const Tecido = [
     tier: 8,
     encantamento: 4,
     precos: {
-      "Thetford": 3429995
+      "Thetford": 3429995,
+      "Lymhurst": 3307970
     },
     craft: [
       {id: "FIBRA_T8_E4", quantidade: 5},

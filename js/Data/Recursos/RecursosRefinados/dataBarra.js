@@ -5,7 +5,8 @@ export const Barra = [
     tier: 2,
     encantamento: 0,
     precos: {
-      "Thetford": 20
+      "Thetford": 20,
+      "Lymhurst": 12
     },
     craft: [
       {id: "MINERIO_T2_E0", quantidade: 1}
@@ -18,7 +19,8 @@ export const Barra = [
     tier: 3,
     encantamento: 0,
     precos: {
-      "Thetford": 144
+      "Thetford": 144,
+      "Lymhurst": 170
     },
     craft: [
       {id: "MINERIO_T3_E0", quantidade: 1}
@@ -31,7 +33,8 @@ export const Barra = [
     tier: 4,
     encantamento: 0,
     precos: {
-      "Thetford": 254
+      "Thetford": 254,
+      "Lymhurst": 312
     },
     craft: [
       {id: "MINERIO_T4_E0", quantidade: 2},
@@ -45,7 +48,8 @@ export const Barra = [
     tier: 4,
     encantamento: 1,
     precos: {
-      "Thetford": 579
+      "Thetford": 579,
+      "Lymhurst": 659
     },
     craft: [
       {id: "MINERIO_T4_E1", quantidade: 2},
@@ -59,7 +63,8 @@ export const Barra = [
     tier: 4,
     encantamento: 2,
     precos: {
-      "Thetford": 1800
+      "Thetford": 1800,
+      "Lymhurst": 2190
     },
     craft: [
       {id: "MINERIO_T4_E2", quantidade: 2},
@@ -73,7 +78,8 @@ export const Barra = [
     tier: 4,
     encantamento: 3,
     precos: {
-      "Thetford": 7109
+      "Thetford": 7109,
+      "Lymhurst": 9850
     },
     craft: [
       {id: "MINERIO_T4_E3", quantidade: 2},
@@ -87,7 +93,8 @@ export const Barra = [
     tier: 4,
     encantamento: 4,
     precos: {
-      "Thetford": 39713
+      "Thetford": 39713,
+      "Lymhurst": 42000
     },
     craft: [
       {id: "MINERIO_T4_E4", quantidade: 2},
@@ -101,7 +108,8 @@ export const Barra = [
     tier: 5,
     encantamento: 0,
     precos: {
-      "Thetford": 959
+      "Thetford": 959,
+      "Lymhurst": 979
     },
     craft: [
       {id: "MINERIO_T5_E0", quantidade: 3},
@@ -115,7 +123,8 @@ export const Barra = [
     tier: 5,
     encantamento: 1,
     precos: {
-      "Thetford": 1901
+      "Thetford": 1901,
+      "Lymhurst": 1825
     },
     craft: [
       {id: "MINERIO_T5_E1", quantidade: 3},
@@ -129,7 +138,8 @@ export const Barra = [
     tier: 5,
     encantamento: 3,
     precos: {
-      "Thetford": 6638
+      "Thetford": 6638,
+      "Lymhurst": 7899
     },
     craft: [
       {id: "MINERIO_T5_E3", quantidade: 3},
@@ -143,7 +153,8 @@ export const Barra = [
     tier: 5,
     encantamento: 3,
     precos: {
-      "Thetford": 28131
+      "Thetford": 28131,
+      "Lymhurst": 28785
     },
     craft: [
       {id: "MINERIO_T5_E3", quantidade: 3},
@@ -157,7 +168,8 @@ export const Barra = [
     tier: 5,
     encantamento: 4,
     precos: {
-      "Thetford": 111866
+      "Thetford": 111866,
+      "Lymhurst": 124960
     },
     craft: [
       {id: "MINERIO_T5_E4", quantidade: 3},
@@ -171,7 +183,8 @@ export const Barra = [
     tier: 6,
     encantamento: 0,
     precos: {
-      "Thetford": 2893
+      "Thetford": 2893,
+      "Lymhurst": 3200
     },
     craft: [
       {id: "MINERIO_T6_E0", quantidade: 4},
@@ -185,7 +198,8 @@ export const Barra = [
     tier: 6,
     encantamento: 1,
     precos: {
-      "Thetford": 6380
+      "Thetford": 6380,
+      "Lymhurst": 7085
     },
     craft: [
       {id: "MINERIO_T6_E1", quantidade: 4},
@@ -199,7 +213,8 @@ export const Barra = [
     tier: 6,
     encantamento: 2,
     precos: {
-      "Thetford": 27494
+      "Thetford": 27494,
+      "Lymhurst": 26995
     },
     craft: [
       {id: "MINERIO_T6_E2", quantidade: 4},
@@ -213,7 +228,8 @@ export const Barra = [
     tier: 6,
     encantamento: 3,
     precos: {
-      "Thetford": 89867
+      "Thetford": 89867,
+      "Lymhurst": 96999
     },
     craft: [
       {id: "MINERIO_T6_E3", quantidade: 4},
@@ -227,7 +243,8 @@ export const Barra = [
     tier: 6,
     encantamento: 4,
     precos: {
-      "Thetford": 329774
+      "Thetford": 329774,
+      "Lymhurst": 399999
     },
     craft: [
       {id: "MINERIO_T6_E4", quantidade: 4},
@@ -241,7 +258,8 @@ export const Barra = [
     tier: 7,
     encantamento: 0,
     precos: {
-      "Thetford": 7666
+      "Thetford": 7666,
+      "Lymhurst": 7900
     },
     craft: [
       {id: "MINERIO_T7_E0", quantidade: 5},
@@ -255,7 +273,8 @@ export const Barra = [
     tier: 7,
     encantamento: 1,
     precos: {
-      "Thetford": 23069
+      "Thetford": 23069,
+      "Lymhurst": 25500
     },
     craft: [
       {id: "MINERIO_T7_E1", quantidade: 5},
@@ -269,7 +288,8 @@ export const Barra = [
     tier: 7,
     encantamento: 2,
     precos: {
-      "Thetford": 83218
+      "Thetford": 83218,
+      "Lymhurst": 86996
     },
     craft: [
       {id: "MINERIO_T7_E2", quantidade: 5},
@@ -283,7 +303,8 @@ export const Barra = [
     tier: 7,
     encantamento: 3,
     precos: {
-      "Thetford": 247214
+      "Thetford": 247214,
+      "Lymhurst": 329999
     },
     craft: [
       {id: "MINERIO_T7_E3", quantidade: 5},
@@ -297,7 +318,8 @@ export const Barra = [
     tier: 7,
     encantamento: 4,
     precos: {
-      "Thetford": 1399999
+      "Thetford": 1399999,
+      "Lymhurst": 950000
     },
     craft: [
       {id: "MINERIO_T7_E4", quantidade: 5},
@@ -311,7 +333,8 @@ export const Barra = [
     tier: 8,
     encantamento: 0,
     precos: {
-      "Thetford": 27841
+      "Thetford": 27841,
+      "Lymhurst": 28999
     },
     craft: [
       {id: "MINERIO_T8_E0", quantidade: 5},
@@ -325,7 +348,8 @@ export const Barra = [
     tier: 8,
     encantamento: 1,
     precos: {
-      "Thetford": 78791
+      "Thetford": 78791,
+      "Lymhurst": 89999
     },
     craft: [
       {id: "MINERIO_T8_E1", quantidade: 5},
@@ -339,7 +363,8 @@ export const Barra = [
     tier: 8,
     encantamento: 2,
     precos: {
-      "Thetford": 240990
+      "Thetford": 240990,
+      "Lymhurst": 242120
     },
     craft: [
       {id: "MINERIO_T8_E2", quantidade: 5},
@@ -353,7 +378,8 @@ export const Barra = [
     tier: 8,
     encantamento: 3,
     precos: {
-      "Thetford": 673987
+      "Thetford": 673987,
+      "Lymhurst": 714999
     },
     craft: [
       {id: "MINERIO_T8_E3", quantidade: 5},
@@ -367,7 +393,8 @@ export const Barra = [
     tier: 8,
     encantamento: 4,
     precos: {
-      "Thetford": 3250000
+      "Thetford": 3250000,
+      "Lymhurst": 3329999
     },
     craft: [
       {id: "MINERIO_T8_E4", quantidade: 5},

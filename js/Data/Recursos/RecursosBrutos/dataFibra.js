@@ -5,7 +5,8 @@ export const Fibra = [
     tier: 2,
     encantamento: 0,
     precos: {
-      "Thetford": 33
+      "Thetford": 33,
+      "Lymhurst": 43
     }
   },
   
@@ -15,7 +16,8 @@ export const Fibra = [
     tier: 3,
     encantamento: 0,
     precos: {
-      "Thetford": 79
+      "Thetford": 79,
+      "Lymhurst": 99
     }
   },
   
@@ -25,7 +27,8 @@ export const Fibra = [
     tier: 4,
     encantamento: 0,
     precos: {
-      "Thetford": 94
+      "Thetford": 94,
+      "Lymhurst": 112
     }
   },
 
@@ -35,7 +38,8 @@ export const Fibra = [
     tier: 4,
     encantamento: 1,
     precos: {
-      "Thetford": 129
+      "Thetford": 129,
+      "Lymhurst": 143
     }
   },
   
@@ -45,7 +49,8 @@ export const Fibra = [
     tier: 4,
     encantamento: 2,
     precos: {
-      "Thetford": 1082
+      "Thetford": 1082,
+      "Lymhurst": 1200
     }
   },
 
@@ -55,7 +60,8 @@ export const Fibra = [
     tier: 4,
     encantamento: 3,
     precos: {
-      "Thetford": 5687
+      "Thetford": 5687,
+      "Lymhurst": 6490
     }
   },
 
@@ -65,7 +71,8 @@ export const Fibra = [
     tier: 4,
     encantamento: 4,
     precos: {
-      "Thetford": 38978
+      "Thetford": 38978,
+      "Lymhurst": 41960
     }
   },
 
@@ -75,7 +82,8 @@ export const Fibra = [
     tier: 5,
     encantamento: 0,
     precos: {
-      "Thetford": 346
+      "Thetford": 346,
+      "Lymhurst": 335
     }
   },
 
@@ -85,7 +93,8 @@ export const Fibra = [
     tier: 5,
     encantamento: 1,
     precos: {
-      "Thetford": 601
+      "Thetford": 601,
+      "Lymhurst": 565
     }
   },
 
@@ -95,7 +104,8 @@ export const Fibra = [
     tier: 5,
     encantamento: 2,
     precos: {
-      "Thetford": 1174
+      "Thetford": 1174,
+      "Lymhurst": 1424
     }
   },
 
@@ -105,7 +115,8 @@ export const Fibra = [
     tier: 5,
     encantamento: 3,
     precos: {
-      "Thetford": 8200
+      "Thetford": 8200,
+      "Lymhurst": 8500
     }
   },
 
@@ -115,7 +126,8 @@ export const Fibra = [
     tier: 5,
     encantamento: 4,
     precos: {
-      "Thetford": 46500
+      "Thetford": 46500,
+      "Lymhurst": 44680
     }
   },
 
@@ -125,7 +137,8 @@ export const Fibra = [
     tier: 6,
     encantamento: 0,
     precos: {
-      "Thetford": 933
+      "Thetford": 933,
+      "Lymhurst": 944
     }
   },
 
@@ -135,7 +148,8 @@ export const Fibra = [
     tier: 6,
     encantamento: 1,
     precos: {
-      "Thetford": 1356
+      "Thetford": 1356,
+      "Lymhurst": 1610
     }
   },
 
@@ -145,7 +159,8 @@ export const Fibra = [
     tier: 6,
     encantamento: 2,
     precos: {
-      "Thetford": 5982
+      "Thetford": 5982,
+      "Lymhurst": 6485
     }
   },
 
@@ -155,7 +170,8 @@ export const Fibra = [
     tier: 6,
     encantamento: 3,
     precos: {
-      "Thetford": 17168
+      "Thetford": 17168,
+      "Lymhurst": 15500
     }
   },
 
@@ -165,7 +181,8 @@ export const Fibra = [
     tier: 6,
     encantamento: 4,
     precos: {
-      "Thetford": 118294
+      "Thetford": 118294,
+      "Lymhurst": 110100
     }
   },
 
@@ -175,7 +192,8 @@ export const Fibra = [
     tier: 7,
     encantamento: 0,
     precos: {
-      "Thetford": 1770
+      "Thetford": 1770,
+      "Lymhurst": 1750
     }
   },
 
@@ -185,7 +203,8 @@ export const Fibra = [
     tier: 7,
     encantamento: 1,
     precos: {
-      "Thetford": 4754
+      "Thetford": 4754,
+      "Lymhurst": 5300
     }
   },
 
@@ -195,7 +214,8 @@ export const Fibra = [
     tier: 7,
     encantamento: 2,
     precos: {
-      "Thetford": 14955
+      "Thetford": 14955,
+      "Lymhurst": 15660
     }
   },
 
@@ -205,7 +225,8 @@ export const Fibra = [
     tier: 7,
     encantamento: 3,
     precos: {
-      "Thetford": 81785
+      "Thetford": 81785,
+      "Lymhurst": 70175
     }
   },
 
@@ -215,7 +236,8 @@ export const Fibra = [
     tier: 7,
     encantamento: 4,
     precos: {
-      "Thetford": 319000
+      "Thetford": 319000,
+      "Lymhurst": 289999
     }
   },
 
@@ -225,7 +247,8 @@ export const Fibra = [
     tier: 8,
     encantamento: 0,
     precos: {
-      "Thetford": 7994
+      "Thetford": 7994,
+      "Lymhurst": 8380
     }
   },
 
@@ -235,7 +258,8 @@ export const Fibra = [
     tier: 8,
     encantamento: 1,
     precos: {
-      "Thetford": 17165
+      "Thetford": 17165,
+      "Lymhurst": 18999
     }
   },
 
@@ -245,7 +269,8 @@ export const Fibra = [
     tier: 8,
     encantamento: 2,
     precos: {
-      "Thetford": 73381
+      "Thetford": 73381,
+      "Lymhurst": 71500
     }
   },
 
@@ -255,7 +280,8 @@ export const Fibra = [
     tier: 8,
     encantamento: 3,
     precos: {
-      "Thetford": 279940
+      "Thetford": 279940,
+      "Lymhurst": 262999
     }
   },
 
@@ -265,7 +291,8 @@ export const Fibra = [
     tier: 8,
     encantamento: 4,
     precos: {
-      "Thetford": 1305988
+      "Thetford": 1305988,
+      "Lymhurst": 1249999
     }
   }
 ]

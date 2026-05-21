@@ -5,7 +5,8 @@ export const BlocoDePedra = [
       tier: 2,
       encantamento: 0,
       precos: {
-        "Thetford": 74
+        "Thetford": 74,
+        "Lymhurst": 72
       },
       craft: [
         {id: "PEDRA_T2_E0", quantidade: 1}
@@ -18,7 +19,8 @@ export const BlocoDePedra = [
     tier: 3,
     encantamento: 0,
     precos: {
-      "Thetford": 215
+      "Thetford": 215,
+      "Lymhurst": 232
     },
     craft: [
       {id: "PEDRA_T3_E0", quantidade: 2},
@@ -32,7 +34,8 @@ export const BlocoDePedra = [
     tier: 4,
     encantamento: 0,
     precos: {
-      "Thetford": 262
+      "Thetford": 262,
+      "Lymhurst": 296
     },
     craft: [
       {id: "PEDRA_T4_E0", quantidade: 2},
@@ -46,7 +49,8 @@ export const BlocoDePedra = [
     tier: 5,
     encantamento: 0,
     precos: {
-      "Thetford": 369
+      "Thetford": 369,
+      "Lymhurst": 436
     },
     craft: [
       {id: "PEDRA_T5_E0", quantidade: 3},
@@ -60,7 +64,8 @@ export const BlocoDePedra = [
     tier: 6,
     encantamento: 0,
     precos: {
-      "Thetford": 1800
+      "Thetford": 1800,
+      "Lymhurst": 1650
     },
     craft: [
       {id: "PEDRA_T6_E0", quantidade: 4},
@@ -74,7 +79,8 @@ export const BlocoDePedra = [
     tier: 7,
     encantamento: 0,
     precos: {
-      "Thetford": 9000
+      "Thetford": 9000,
+      "Lymhurst": 8630
     },
     craft: [
       {id: "PEDRA_T7_E0", quantidade: 5},
@@ -88,7 +94,8 @@ export const BlocoDePedra = [
     tier: 8,
     encantamento: 0,
     precos: {
-      "Thetford": 44671
+      "Thetford": 44671,
+      "Lymhurst": 37970
     },
     craft: [
       {id: "PEDRA_T8_E0", quantidade: 5},
