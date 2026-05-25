@@ -11,19 +11,18 @@ document.querySelectorAll(".category-btn");
 const tierButtons =
 document.querySelectorAll(".filter-btn");
 
-// ===============================
-// FILTROS ATUAIS
-// ===============================
 
 let categoriaAtual = "todos";
+
+let tipoAtual = "todos";
 
 let tierAtual = "todos";
 
 let pesquisaAtual = "";
 
-// ===============================
+
 //  DICIONÁRIO DE IMAGENS
-// ===============================
+
 
 const imagensCategorias = {
 
@@ -43,9 +42,9 @@ const imagensCategorias = {
     couro: "LEATHER",
 };
 
-// ===============================
+
 // GERAR IMAGEM
-// ===============================
+
 
 function gerarImagem(item) {
 
@@ -76,9 +75,8 @@ function gerarImagem(item) {
     return `${base}${nome}`;
 }
 
-// ===============================
+
 // CRIAR CARDS
-// ===============================
 
 function criarCards(lista) {
 
@@ -102,7 +100,7 @@ function criarCards(lista) {
 
                 <div class="item-title">
 
-                    ${item.categoria.toUpperCase()}
+                    ${item.nome}
 
                 </div>
 
@@ -133,6 +131,10 @@ function aplicarFiltros() {
 
     let lista = [...mercado];
 
+    lista = lista.filter(item =>
+        item.tipo === "recursos"
+    );
+
     if (categoriaAtual !== "todos") {
 
         lista = lista.filter(item =>
@@ -151,7 +153,7 @@ function aplicarFiltros() {
 
         lista = lista.filter(item =>
 
-            item.categoria
+            item.nome
             .toLowerCase()
             .includes(pesquisaAtual)
         );
@@ -186,8 +188,25 @@ categoryButtons.forEach(button => {
 
         button.classList.add("active");
 
-        categoriaAtual =
-        button.dataset.category;
+        if (button.dataset.tipo) {
+
+            tipoAtual =
+            button.dataset.tipo;
+
+            categoriaAtual =
+            "todos";
+
+        } else {
+
+            tipoAtual =
+            "recursos";
+        }
+
+        if (button.dataset.categoria) {
+
+            categoriaAtual =
+            button.dataset.categoria;
+        }
 
         aplicarFiltros();
     });

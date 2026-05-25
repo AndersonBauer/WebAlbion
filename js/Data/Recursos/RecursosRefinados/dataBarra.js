@@ -1,6 +1,7 @@
 export const Barra = [
   {
     id: "BARRA_T2_E0",
+    nome: "Barra de Cobre",
     categoria: "barra",
     tier: 2,
     encantamento: 0,
@@ -15,6 +16,7 @@ export const Barra = [
 
   {
     id: "BARRA_T3_E0",
+    nome: "Barra de Bronze",
     categoria: "barra",
     tier: 3,
     encantamento: 0,
@@ -29,6 +31,7 @@ export const Barra = [
 
   {
     id: "BARRA_T4_E0",
+    nome: "Barra de Aço",
     categoria: "barra",
     tier: 4,
     encantamento: 0,
@@ -44,6 +47,7 @@ export const Barra = [
 
   {
     id: "BARRA_T4_E1",
+    nome: "Barra de Aço Incomum",
     categoria: "barra",
     tier: 4,
     encantamento: 1,
@@ -59,6 +63,7 @@ export const Barra = [
 
   {
     id: "BARRA_T4_E2",
+    nome: "Barra de Aço Raro",
     categoria: "barra",
     tier: 4,
     encantamento: 2,
@@ -74,6 +79,7 @@ export const Barra = [
 
   {
     id: "BARRA_T4_E3",
+    nome: "Barra de Aço Excepcional",
     categoria: "barra",
     tier: 4,
     encantamento: 3,
@@ -89,6 +95,7 @@ export const Barra = [
 
   {
     id: "BARRA_T4_E4",
+    nome: "Barra de Aço Prístino",
     categoria: "barra",
     tier: 4,
     encantamento: 4,
@@ -104,6 +111,7 @@ export const Barra = [
 
   {
     id: "BARRA_T5_E0",
+    nome: "Barra de Aço Titânio",
     categoria: "barra",
     tier: 5,
     encantamento: 0,
@@ -119,6 +127,7 @@ export const Barra = [
 
   {
     id: "BARRA_T5_E1",
+    nome: "Barra de Aço Titânio Incomum",
     categoria: "barra",
     tier: 5,
     encantamento: 1,
@@ -134,6 +143,7 @@ export const Barra = [
 
   {
     id: "BARRA_T5_E3",
+    nome: "Barra de Aço Titânio Rara",
     categoria: "barra",
     tier: 5,
     encantamento: 3,
@@ -149,6 +159,7 @@ export const Barra = [
 
   {
     id: "BARRA_T5_E4",
+    nome: "Barra de Aço Titânio Excepcional",
     categoria: "barra",
     tier: 5,
     encantamento: 3,
@@ -164,6 +175,7 @@ export const Barra = [
 
   {
     id: "BARRA_T5_E4",
+    nome: "Barra de Aço Titânio Prístina",
     categoria: "barra",
     tier: 5,
     encantamento: 4,
@@ -179,6 +191,7 @@ export const Barra = [
 
   {
     id: "BARRA_T6_E0",
+    nome: "Barra de Aço Runita",
     categoria: "barra",
     tier: 6,
     encantamento: 0,
@@ -194,6 +207,7 @@ export const Barra = [
 
   {
     id: "BARRA_T6_E1",
+    nome: "Barra de Aço Runita Incomum",
     categoria: "barra",
     tier: 6,
     encantamento: 1,
@@ -209,6 +223,7 @@ export const Barra = [
 
   {
     id: "BARRA_T6_E2",
+    nome: "Barra de Aço Runita Rara",
     categoria: "barra",
     tier: 6,
     encantamento: 2,
@@ -224,6 +239,7 @@ export const Barra = [
 
   {
     id: "BARRA_T6_E3",
+    nome: "Barra de Aço Runita Excepcional",
     categoria: "barra",
     tier: 6,
     encantamento: 3,
@@ -239,6 +255,7 @@ export const Barra = [
 
   {
     id: "BARRA_T6_E4",
+    nome: "Barra de Aço Runita Prístina",
     categoria: "barra",
     tier: 6,
     encantamento: 4,
@@ -254,6 +271,7 @@ export const Barra = [
 
   {
     id: "BARRA_T7_E0",
+    nome: "Barra de Aço Meteorito",
     categoria: "barra",
     tier: 7,
     encantamento: 0,
@@ -269,6 +287,7 @@ export const Barra = [
 
   {
     id: "BARRA_T7_E1",
+    nome: "Barra de Aço Meteorito Incomum",
     categoria: "barra",
     tier: 7,
     encantamento: 1,
@@ -284,6 +303,7 @@ export const Barra = [
 
   {
     id: "BARRA_T7_E2",
+    nome: "Barra de Aço Meteorito Rara",
     categoria: "barra",
     tier: 7,
     encantamento: 2,
@@ -299,6 +319,7 @@ export const Barra = [
 
   {
     id: "BARRA_T7_E3",
+    nome: "Barra de Aço Meteorito Excepcional",
     categoria: "barra",
     tier: 7,
     encantamento: 3,
@@ -314,6 +335,7 @@ export const Barra = [
 
   {
     id: "BARRA_T7_E4",
+    nome: "Barra de Aço Meteorito Prístina	",
     categoria: "barra",
     tier: 7,
     encantamento: 4,
@@ -329,6 +351,7 @@ export const Barra = [
 
   {
     id: "BARRA_T8_E0",
+    nome: "Barra de Aço de Adamante",
     categoria: "barra",
     tier: 8,
     encantamento: 0,
@@ -344,6 +367,7 @@ export const Barra = [
 
   {
     id: "BARRA_T8_E1",
+    nome: "Barra de Aço de Adamante Incomum",
     categoria: "barra",
     tier: 8,
     encantamento: 1,
@@ -359,6 +383,7 @@ export const Barra = [
 
   {
     id: "BARRA_T8_E2",
+    nome: "Barra de Aço de Adamante Rara",
     categoria: "barra",
     tier: 8,
     encantamento: 2,
@@ -374,6 +399,7 @@ export const Barra = [
 
   {
     id: "BARRA_T8_E3",
+    nome: "Barra de Aço de Adamante Excepcional",
     categoria: "barra",
     tier: 8,
     encantamento: 3,
@@ -389,6 +415,7 @@ export const Barra = [
 
   {
     id: "BARRA_T8_E4",
+    nome: "Barra de Aço de Adamante Prístina",
     categoria: "barra",
     tier: 8,
     encantamento: 4,

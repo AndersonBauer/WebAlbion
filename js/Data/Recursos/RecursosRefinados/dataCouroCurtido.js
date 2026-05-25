@@ -1,6 +1,7 @@
 export const CouroCurtido = [
   {
     id: "COURO_T2_E0",
+    nome: "Couro Esticado",
     categoria: "couro",
     tier: 2,
     encantamento: 0,
@@ -15,6 +16,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T3_E0",
+    nome: "Couro Grosso",
     categoria: "couro",
     tier: 3,
     encantamento: 0,
@@ -30,6 +32,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T4_E0",
+    nome: "Couro Trabalhado",
     categoria: "couro",
     tier: 4,
     encantamento: 0,
@@ -45,6 +48,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T4_E1",
+    nome: "Couro Trabalhado Incomum",
     categoria: "couro",
     tier: 4,
     encantamento: 1,
@@ -60,6 +64,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T4_E2",
+    nome: "Couro Trabalhado Raro",
     categoria: "couro",
     tier: 4,
     encantamento: 2,
@@ -75,6 +80,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T4_E3",
+    nome: "Couro Trabalhado Excepcional",
     categoria: "couro",
     tier: 4,
     encantamento: 3,
@@ -90,6 +96,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T4_E4",
+    nome: "Couro Trabalhado Prístino",
     categoria: "couro",
     tier: 4,
     encantamento: 4,
@@ -105,6 +112,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T5_E0",
+    nome: "Couro Curtido",
     categoria: "couro",
     tier: 5,
     encantamento: 0,
@@ -120,6 +128,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T5_E1",
+    nome: "Couro Curtido Incomum",
     categoria: "couro",
     tier: 5,
     encantamento: 1,
@@ -135,6 +144,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T5_E2",
+    nome: "Couro Curtido Raro",
     categoria: "couro",
     tier: 5,
     encantamento: 2,
@@ -150,6 +160,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T5_E3",
+    nome: "Couro Curtido Excepcional",
     categoria: "couro",
     tier: 5,
     encantamento: 3,
@@ -165,6 +176,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T5_E4",
+    nome: "Couro Curtido Prístino",
     categoria: "couro",
     tier: 5,
     encantamento: 4,
@@ -180,6 +192,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T6_E0",
+    nome: "Couro Endurecido",
     categoria: "couro",
     tier: 6,
     encantamento: 0,
@@ -195,6 +208,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T6_E1",
+    nome: "Couro Endurecido Incomum",
     categoria: "couro",
     tier: 6,
     encantamento: 1,
@@ -210,6 +224,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T6_E2",
+    nome: "Couro Endurecido Raro",
     categoria: "couro",
     tier: 6,
     encantamento: 2,
@@ -225,6 +240,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T6_E3",
+    nome: "Couro Endurecido Excepcional",
     categoria: "couro",
     tier: 6,
     encantamento: 3,
@@ -240,6 +256,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T6_E4",
+    nome: "Couro Endurecido Prístino",
     categoria: "couro",
     tier: 6,
     encantamento: 4,
@@ -255,6 +272,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T7_E0",
+    nome: "Couro Reforçado",
     categoria: "couro",
     tier: 7,
     encantamento: 0,
@@ -270,6 +288,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T7_E1",
+    nome: "Couro Reforçado Incomum",
     categoria: "couro",
     tier: 7,
     encantamento: 1,
@@ -285,6 +304,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T7_E2",
+    nome: "Couro Reforçado Raro",
     categoria: "couro",
     tier: 7,
     encantamento: 2,
@@ -300,6 +320,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T7_E3",
+    nome: "Couro Reforçado Excepcional",
     categoria: "couro",
     tier: 7,
     encantamento: 3,
@@ -315,6 +336,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T7_E4",
+    nome: "Couro Reforçado Prístino",
     categoria: "couro",
     tier: 7,
     encantamento: 4,
@@ -330,6 +352,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T8_E0",
+    nome: "Couro Fortificado",
     categoria: "couro",
     tier: 8,
     encantamento: 0,
@@ -345,6 +368,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T8_E1",
+    nome: "Couro Fortificado Incomum",
     categoria: "couro",
     tier: 8,
     encantamento: 1,
@@ -360,6 +384,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T8_E2",
+    nome: "Couro Fortificado Raro",
     categoria: "couro",
     tier: 8,
     encantamento: 2,
@@ -375,6 +400,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T8_E3",
+    nome: "Couro Fortificado Excepcional",
     categoria: "couro",
     tier: 8,
     encantamento: 3,
@@ -390,6 +416,7 @@ export const CouroCurtido = [
 
   {
     id: "COURO_T8_E4",
+    nome: "Couro Fortificado Prístino",
     categoria: "couro",
     tier: 8,
     encantamento: 4,

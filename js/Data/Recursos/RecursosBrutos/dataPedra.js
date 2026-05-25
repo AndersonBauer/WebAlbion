@@ -1,6 +1,7 @@
 export const Pedra = [
     {
       id: "PEDRA_T2_E0",
+      nome: "Calcário",
       categoria: "pedra",
       tier: 2,
       encantamento: 0,
@@ -12,6 +13,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T3_E0",
+    nome: "Arenito",
     categoria: "pedra",
     tier: 3,
     encantamento: 0,
@@ -23,6 +25,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T4_E0",
+    nome: "Travertino",
     categoria: "pedra",
     tier: 4,
     encantamento: 0,
@@ -34,6 +37,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T4_E1",
+    nome: "Travertino Incomum",
     categoria: "pedra",
     tier: 4,
     encantamento: 1,
@@ -45,6 +49,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T4_E2",
+    nome: "Travertino Raro",
     categoria: "pedra",
     tier: 4,
     encantamento: 2,
@@ -56,6 +61,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T4_E3",
+    nome: "Travertino Excepcional",
     categoria: "pedra",
     tier: 4,
     encantamento: 3,
@@ -67,6 +73,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T5_E0",
+    nome: "Granito",
     categoria: "pedra",
     tier: 5,
     encantamento: 0,
@@ -78,6 +85,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T5_E1",
+    nome: "Granito Incomum",
     categoria: "pedra",
     tier: 5,
     encantamento: 1,
@@ -89,6 +97,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T5_E2",
+    nome: "Granito Raro",
     categoria: "pedra",
     tier: 5,
     encantamento: 2,
@@ -100,6 +109,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T5_E3",
+    nome: "Granito Excepcional",
     categoria: "pedra",
     tier: 5,
     encantamento: 3,
@@ -111,6 +121,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T6_E0",
+    nome: "Ardósia",
     categoria: "pedra",
     tier: 6,
     encantamento: 0,
@@ -122,6 +133,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T6_E1",
+    nome: "Ardósia Incomum",
     categoria: "pedra",
     tier: 6,
     encantamento: 1,
@@ -133,6 +145,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T6_E2",
+    nome: "Ardósia Rara",
     categoria: "pedra",
     tier: 6,
     encantamento: 2,
@@ -144,6 +157,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T6_E3",
+    nome: "Ardósia Excepcional",
     categoria: "pedra",
     tier: 6,
     encantamento: 3,
@@ -155,6 +169,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T7_E0",
+    nome: "Basalto",
     categoria: "pedra",
     tier: 7,
     encantamento: 0,
@@ -166,6 +181,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T7_E1",
+    nome: "Basalto Incomum",
     categoria: "pedra",
     tier: 7,
     encantamento: 1,
@@ -177,6 +193,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T7_E2",
+    nome: "Basalto Raro",
     categoria: "pedra",
     tier: 7,
     encantamento: 2,
@@ -188,6 +205,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T7_E3",
+    nome: "Basalto Excepcional",
     categoria: "pedra",
     tier: 7,
     encantamento: 3,
@@ -199,6 +217,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T8_E0",
+    nome: "Mármore",
     categoria: "pedra",
     tier: 8,
     encantamento: 0,
@@ -210,6 +229,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T8_E1",
+    nome: "Mármore Incomum",
     categoria: "pedra",
     tier: 8,
     encantamento: 1,
@@ -221,6 +241,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T8_E2",
+    nome: "Mármore Raro",
     categoria: "pedra",
     tier: 8,
     encantamento: 2,
@@ -232,6 +253,7 @@ export const Pedra = [
 
   {
     id: "PEDRA_T8_E3",
+    nome: "Mármore Excepcional",
     categoria: "pedra",
     tier: 8,
     encantamento: 3,

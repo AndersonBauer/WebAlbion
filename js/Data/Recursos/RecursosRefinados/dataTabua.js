@@ -1,6 +1,8 @@
 export const Tabua = [
     {
     id: "TABUA_T2_E0",
+    nome: "Tábuas de Bétula",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 2,
     encantamento: 0,
@@ -15,6 +17,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T3_E0",
+    nome: "Tábuas de Castanheira",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 3,
     encantamento: 0,
@@ -28,10 +32,10 @@ export const Tabua = [
     ]
   },
 
-  // ===== T4 =====
-
   {
     id: "TABUA_T4_E0",
+    nome: "Tábuas de Pinho",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 4,
     encantamento: 0,
@@ -47,6 +51,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T4_E1",
+    nome: "Tábuas de Pinho Incomuns",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 4,
     encantamento: 1,
@@ -62,6 +68,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T4_E2",
+    nome: "Tábuas de Pinho Raras",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 4,
     encantamento: 2,
@@ -77,6 +85,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T4_E3",
+    nome: "Tábuas de Pinho Excepcionais",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 4,
     encantamento: 3,
@@ -92,6 +102,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T4_E4",
+    nome: "Tábuas de Pinho Prístinas",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 4,
     encantamento: 4,
@@ -105,10 +117,10 @@ export const Tabua = [
     ]
   },
 
-  // ===== T5 =====
-
   {
     id: "TABUA_T5_E0",
+    nome: "Tábuas de Cedro",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 5,
     encantamento: 0,
@@ -124,6 +136,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T5_E1",
+    nome: "Tábuas de Cedro Incomuns",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 5,
     encantamento: 1,
@@ -139,6 +153,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T5_E2",
+    nome: "Tábuas de Cedro Raras",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 5,
     encantamento: 2,
@@ -154,6 +170,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T5_E3",
+    nome: "Tábuas de Cedro Excepcionais",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 5,
     encantamento: 3,
@@ -169,6 +187,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T5_E4",
+    nome: "Tábuas de Cedro Prístinas",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 5,
     encantamento: 4,
@@ -182,10 +202,10 @@ export const Tabua = [
     ]
   },
 
-  // ===== T6 =====
-
   {
     id: "TABUA_T6_E0",
+    nome: "Tábuas de Carvalho-sangue",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 6,
     encantamento: 0,
@@ -201,6 +221,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T6_E1",
+    nome: "Tábuas de Carvalho-sangue Incomuns",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 6,
     encantamento: 1,
@@ -216,6 +238,8 @@ export const Tabua = [
 
   {    
     id: "TABUA_T6_E2",
+    nome: "Tábuas de Carvalho-sangue Raras",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 6,
     encantamento: 2,
@@ -231,6 +255,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T6_E3",
+    nome: "Tábuas de Carvalho-sangue Excepcionais",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 6,
     encantamento: 3,
@@ -246,6 +272,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T6_E4",
+    nome: "Tábuas de Carvalho-sangue Prístinas",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 6,
     encantamento: 4,
@@ -259,10 +287,10 @@ export const Tabua = [
     ]
   },
 
-  // ===== T7 =====
-
   {
     id: "TABUA_T7_E0",
+    nome: "Tábuas de Freixo",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 7,
     encantamento: 0,
@@ -278,6 +306,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T7_E1",
+    nome: "Tábuas de Freixo Incomuns",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 7,
     encantamento: 1,
@@ -293,6 +323,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T7_E2",
+    nome: "Tábuas de Freixo Raras",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 7,
     encantamento: 2,
@@ -308,6 +340,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T7_E3",
+    nome: "Tábuas de Freixo Excepcionais",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 7,
     encantamento: 3,
@@ -323,6 +357,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T7_E4",
+    nome: "Tábuas de Freixo Prístinas",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 7,
     encantamento: 4,
@@ -336,10 +372,10 @@ export const Tabua = [
     ]
   },
 
-  // ===== T8 =====
-
   {
     id: "TABUA_T8_E0",
+    nome: "Tábuas de Pau-branco",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 8,
     encantamento: 0,
@@ -355,6 +391,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T8_E1",
+    nome: "Tábuas de Pau-branco Incomuns",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 8,
     encantamento: 1,
@@ -370,6 +408,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T8_E2",
+    nome: "Tábuas de Pau-branco Raras",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 8,
     encantamento: 2,
@@ -385,6 +425,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T8_E3",
+    nome: "Tábuas de Pau-branco Excepcionais",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 8,
     encantamento: 3,
@@ -400,6 +442,8 @@ export const Tabua = [
 
   {
     id: "TABUA_T8_E4",
+    nome: "Tábuas de Pau-branco Prística",
+    tipo: "recursos",
     categoria: "tabua",
     tier: 8,
     encantamento: 4,

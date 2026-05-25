@@ -1,6 +1,7 @@
 export const Minerio = [
   {
     id: "MINERIO_T2_E0",
+    nome: "Minério de Cobre",
     categoria: "minerio",
     tier: 2,
     encantamento: 0,
@@ -12,6 +13,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T3_E0",
+    nome: "Minério de Estanho",
     categoria: "minerio",
     tier: 3,
     encantamento: 0,
@@ -23,6 +25,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T4_E0",
+    nome: "Minério de Ferro",
     categoria: "minerio",
     tier: 4,
     encantamento: 0,
@@ -34,6 +37,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T4_E1",
+    nome: "Minério de Ferro Incomum",
     categoria: "minerio",
     tier: 4,
     encantamento: 1,
@@ -45,6 +49,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T4_E2",
+    nome: "Minério de Ferro Raro",
     categoria: "minerio",
     tier: 4,
     encantamento: 2,
@@ -56,6 +61,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T4_E3",
+    nome: "Minério de Ferro Excepcional",
     categoria: "minerio",
     tier: 4,
     encantamento: 3,
@@ -67,6 +73,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T4_E4",
+    nome: "Minério de Ferro Prístino",
     categoria: "minerio",
     tier: 4,
     encantamento: 4,
@@ -78,6 +85,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T5_E0",
+    nome: "Minério de Titânio",
     categoria: "minerio",
     tier: 5,
     encantamento: 0,
@@ -89,6 +97,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T5_E1",
+    nome: "Minério de Titânio Incomum",
     categoria: "minerio",
     tier: 5,
     encantamento: 1,
@@ -100,6 +109,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T5_E2",
+    nome: "Minério de Titânio Raro",
     categoria: "minerio",
     tier: 5,
     encantamento: 2,
@@ -111,6 +121,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T5_E3",
+    nome: "Minério de Titânio Excepcional",
     categoria: "minerio",
     tier: 5,
     encantamento: 3,
@@ -122,6 +133,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T5_E4",
+    nome: "Minério de Titânio Prístino",
     categoria: "minerio",
     tier: 5,
     encantamento: 4,
@@ -133,6 +145,7 @@ export const Minerio = [
   
   {
     id: "MINERIO_T6_E0",
+    nome: "Minério de Runita",
     categoria: "minerio",
     tier: 6,
     encantamento: 0,
@@ -144,6 +157,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T6_E1",
+    nome: "Minério de Runita Incomum",
     categoria: "minerio",
     tier: 6,
     encantamento: 1,
@@ -155,6 +169,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T6_E2",
+    nome: "Minério de Runita Raro",
     categoria: "minerio",
     tier: 6,
     encantamento: 2,
@@ -166,6 +181,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T6_E3",
+    nome: "Minério de Runita Excepcional",
     categoria: "minerio",
     tier: 6,
     encantamento: 3,
@@ -177,6 +193,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T6_E4",
+    nome: "Minério de Runita Prístino",
     categoria: "minerio",
     tier: 6,
     encantamento: 4,
@@ -188,6 +205,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T7_E0",
+    nome: "Minério de Meteorito",
     categoria: "minerio",
     tier: 7,
     encantamento: 0,
@@ -199,6 +217,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T7_E1",
+    nome: "Minério de Meteorito Incomum",
     categoria: "minerio",
     tier: 7,
     encantamento: 1,
@@ -210,6 +229,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T7_E2",
+    nome: "Minério de Meteorito Raro",
     categoria: "minerio",
     tier: 7,
     encantamento: 2,
@@ -221,6 +241,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T7_E3",
+    nome: "Minério de Meteorito Excepcional",
     categoria: "minerio",
     tier: 7,
     encantamento: 3,
@@ -232,6 +253,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T7_E4",
+    nome: "Minério de Meteorito Prístino",
     categoria: "minerio",
     tier: 7,
     encantamento: 4,
@@ -243,6 +265,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T8_E0",
+    nome: "Minério de Adamantium",
     categoria: "minerio",
     tier: 8,
     encantamento: 0,
@@ -254,6 +277,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T8_E1",
+    nome: "Minério de Adamantium Incomum",
     categoria: "minerio",
     tier: 8,
     encantamento: 1,
@@ -265,6 +289,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T8_E2",
+    nome: "Minério de Adamantium Raro",
     categoria: "minerio",
     tier: 8,
     encantamento: 2,
@@ -276,6 +301,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T8_E3",
+    nome: "Minério de Adamantium Excepcional",
     categoria: "minerio",
     tier: 8,
     encantamento: 3,
@@ -287,6 +313,7 @@ export const Minerio = [
 
   {
     id: "MINERIO_T8_E4",
+    nome: "Minério de Adamantium Prístino",
     categoria: "minerio",
     tier: 8,
     encantamento: 4,

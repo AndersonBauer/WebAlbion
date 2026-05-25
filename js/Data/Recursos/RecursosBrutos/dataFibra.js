@@ -1,6 +1,7 @@
 export const Fibra = [
     {
     id: "FIBRA_T2_E0",
+    nome: "Algodão",
     categoria: "fibra",
     tier: 2,
     encantamento: 0,
@@ -12,6 +13,7 @@ export const Fibra = [
   
   {
     id: "FIBRA_T3_E0",
+    nome: "Linho",
     categoria: "fibra",
     tier: 3,
     encantamento: 0,
@@ -23,6 +25,7 @@ export const Fibra = [
   
   {
     id: "FIBRA_T4_E0",
+    nome: "Cânhamo",
     categoria: "fibra",
     tier: 4,
     encantamento: 0,
@@ -34,6 +37,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T4_E1",
+    nome: "Cânhamo Incomum",
     categoria: "fibra",
     tier: 4,
     encantamento: 1,
@@ -45,6 +49,7 @@ export const Fibra = [
   
   {
     id: "FIBRA_T4_E2",
+    nome: "Cânhamo Raro",
     categoria: "fibra",
     tier: 4,
     encantamento: 2,
@@ -56,6 +61,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T4_E3",
+    nome: "Cânhamo Excepcional",
     categoria: "fibra",
     tier: 4,
     encantamento: 3,
@@ -67,6 +73,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T4_E4",
+    nome: "Cânhamo Prístino",
     categoria: "fibra",
     tier: 4,
     encantamento: 4,
@@ -78,6 +85,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T5_E0",
+    nome: "Flor do Céu",
     categoria: "fibra",
     tier: 5,
     encantamento: 0,
@@ -89,6 +97,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T5_E1",
+    nome: "Flor do Céu Incomum",
     categoria: "fibra",
     tier: 5,
     encantamento: 1,
@@ -100,6 +109,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T5_E2",
+    nome: "Flor do Céu Rara",
     categoria: "fibra",
     tier: 5,
     encantamento: 2,
@@ -111,6 +121,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T5_E3",
+    nome: "Flor do Céu Excepcional",
     categoria: "fibra",
     tier: 5,
     encantamento: 3,
@@ -122,6 +133,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T5_E4",
+    nome: "Flor do Céu Prístina",
     categoria: "fibra",
     tier: 5,
     encantamento: 4,
@@ -133,6 +145,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T6_E0",
+    nome: "Algodão Amberleaf",
     categoria: "fibra",
     tier: 6,
     encantamento: 0,
@@ -144,6 +157,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T6_E1",
+    nome: "Algodão Amberleaf Incomum",
     categoria: "fibra",
     tier: 6,
     encantamento: 1,
@@ -155,6 +169,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T6_E2",
+    nome: "Algodão Amberleaf Raro",
     categoria: "fibra",
     tier: 6,
     encantamento: 2,
@@ -166,6 +181,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T6_E3",
+    nome: "Algodão Amberleaf Excepcional",
     categoria: "fibra",
     tier: 6,
     encantamento: 3,
@@ -177,6 +193,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T6_E4",
+    nome: "Algodão Amberleaf Prístino",
     categoria: "fibra",
     tier: 6,
     encantamento: 4,
@@ -188,6 +205,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T7_E0",
+    nome: "Flor-de-sol",
     categoria: "fibra",
     tier: 7,
     encantamento: 0,
@@ -199,6 +217,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T7_E1",
+    nome: "Flor-de-sol Incomum",
     categoria: "fibra",
     tier: 7,
     encantamento: 1,
@@ -210,6 +229,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T7_E2",
+    nome: "Flor-de-sol Rara",
     categoria: "fibra",
     tier: 7,
     encantamento: 2,
@@ -221,6 +241,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T7_E3",
+    nome: "Flor-de-sol Excepcional",
     categoria: "fibra",
     tier: 7,
     encantamento: 3,
@@ -232,6 +253,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T7_E4",
+    nome: "Flor-de-sol Prístina",
     categoria: "fibra",
     tier: 7,
     encantamento: 4,
@@ -243,6 +265,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T8_E0",
+    nome: "Cânhamo Fantasma",
     categoria: "fibra",
     tier: 8,
     encantamento: 0,
@@ -254,6 +277,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T8_E1",
+    nome: "Cânhamo Fantasma Incomum",
     categoria: "fibra",
     tier: 8,
     encantamento: 1,
@@ -265,6 +289,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T8_E2",
+    nome: "Cânhamo Fantasma Raro",
     categoria: "fibra",
     tier: 8,
     encantamento: 2,
@@ -276,6 +301,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T8_E3",
+    nome: "Cânhamo Fantasma Excepcional",
     categoria: "fibra",
     tier: 8,
     encantamento: 3,
@@ -287,6 +313,7 @@ export const Fibra = [
 
   {
     id: "FIBRA_T8_E4",
+    nome: "Cânhamo Fantasma Prístino",
     categoria: "fibra",
     tier: 8,
     encantamento: 4,

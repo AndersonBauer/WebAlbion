@@ -84,7 +84,7 @@ document.getElementById("item-imagem").src =
 gerarImagem(item);
 
 document.getElementById("item-nome").innerText =
-item.categoria.toUpperCase();
+item.nome.toUpperCase();
 
 document.getElementById("item-tier").innerText =
 `Tier ${item.tier}.${item.encantamento}`;

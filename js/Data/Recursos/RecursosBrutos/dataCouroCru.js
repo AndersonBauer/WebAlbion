@@ -1,6 +1,7 @@
 export const CouroCru = [
   {
     id: "COURO_CRU_T2_E0",
+    nome: "Pelego Rústico",
     categoria: "couro cru",
     tier: 2,
     encantamento: 0,
@@ -12,6 +13,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T3_E0",
+    nome: "Pelego Fino",
     categoria: "couro cru",
     tier: 3,
     encantamento: 0,
@@ -23,6 +25,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T4_E0",
+    nome: "Pelego Médio",
     categoria: "couro cru",
     tier: 4,
     encantamento: 0,
@@ -34,6 +37,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T4_E1",
+    nome: "Pelego Médio Incomum",
     categoria: "couro cru",
     tier: 4,
     encantamento: 1,
@@ -45,6 +49,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T4_E2",
+    nome: "Pelego Médio Raro",
     categoria: "couro cru",
     tier: 4,
     encantamento: 2,
@@ -56,6 +61,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T4_E3",
+    nome: "Pelego Médio Excepcional",
     categoria: "couro cru",
     tier: 4,
     encantamento: 3,
@@ -67,6 +73,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T4_E4",
+    nome: "Pelego Médio Prístino",
     categoria: "couro cru",
     tier: 4,
     encantamento: 4,
@@ -78,6 +85,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T5_E0",
+    nome: "Pelego Pesado",
     categoria: "couro cru",
     tier: 5,
     encantamento: 0,
@@ -89,6 +97,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T5_E1",
+    nome: "Pelego Pesado Incomum",
     categoria: "couro cru",
     tier: 5,
     encantamento: 1,
@@ -100,6 +109,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T5_E2",
+    nome: "Pelego Pesado Raro",
     categoria: "couro cru",
     tier: 5,
     encantamento: 2,
@@ -111,6 +121,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T5_E3",
+    nome: "Pelego Pesado Excepcional",
     categoria: "couro cru",
     tier: 5,
     encantamento: 3,
@@ -122,6 +133,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T5_E4",
+    nome: "Pelego Pesado Prístino",
     categoria: "couro cru",
     tier: 5,
     encantamento: 4,
@@ -133,6 +145,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T6_E0",
+    nome: "Pelego Robusto",
     categoria: "couro cru",
     tier: 6,
     encantamento: 0,
@@ -144,6 +157,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T6_E1",
+    nome: "Pelego Robusto incomum",
     categoria: "couro cru",
     tier: 6,
     encantamento: 1,
@@ -155,6 +169,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T6_E2",
+    nome: "Pelego Robusto Raro",
     categoria: "couro cru",
     tier: 6,
     encantamento: 2,
@@ -166,6 +181,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T6_E3",
+    nome: "Pelego Robusto Excepcional",
     categoria: "couro cru",
     tier: 6,
     encantamento: 3,
@@ -177,6 +193,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T6_E4",
+    nome: "Pelego Robusto Prístino",
     categoria: "couro cru",
     tier: 6,
     encantamento: 4,
@@ -188,6 +205,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T7_E0",
+    nome: "Pelego Grosso",
     categoria: "couro cru",
     tier: 7,
     encantamento: 0,
@@ -199,6 +217,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T7_E1",
+    nome: "Pelego Grosso Incomum",
     categoria: "couro cru",
     tier: 7,
     encantamento: 1,
@@ -210,6 +229,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T7_E2",
+    nome: "Pelego Grosso Raro",
     categoria: "couro cru",
     tier: 7,
     encantamento: 2,
@@ -221,6 +241,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T7_E3",
+    nome: "Pelego Grosso Excepcional",
     categoria: "couro cru",
     tier: 7,
     encantamento: 3,
@@ -232,6 +253,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T7_E4",
+    nome: "Pelego Grosso Prístino",
     categoria: "couro cru",
     tier: 7,
     encantamento: 4,
@@ -243,6 +265,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T8_E0",
+    nome: "Pelego Resistente",
     categoria: "couro cru",
     tier: 8,
     encantamento: 0,
@@ -254,6 +277,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T8_E1",
+    nome: "Pelego Resistente Incomum",
     categoria: "couro cru",
     tier: 8,
     encantamento: 1,
@@ -265,6 +289,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T8_E2",
+    nome: "Pelego Resistente Raro",
     categoria: "couro cru",
     tier: 8,
     encantamento: 2,
@@ -276,6 +301,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T8_E3",
+    nome: "Pelego Resistente Excepcional",
     categoria: "couro cru",
     tier: 8,
     encantamento: 3,
@@ -287,6 +313,7 @@ export const CouroCru = [
 
   {
     id: "COURO_CRU_T8_E4",
+    nome: "Pelego Resistente Prístino",
     categoria: "couro cru",
     tier: 8,
     encantamento: 4,
