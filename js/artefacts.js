@@ -97,7 +97,7 @@ function criarCards(lista) {
         card.addEventListener("click", () => {
 
     window.location.href =
-    `../Pages/item.html?id=${item.id}&from=armas`;
+    `../Pages/item.html?id=${item.id}&from=artefacts`;
 
 });
 

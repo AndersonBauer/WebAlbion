@@ -33,12 +33,16 @@ if (from === "armas") {
     backLink.href =
     "weapons.html";
 
-} else {
+} else if (from === "artefacts") {
+
+    backLink.href =
+    "artefacts.html"
+
+}else {
 
     backLink.href =
     "resources.html";
 }
-
 
 
 // IMAGENS
