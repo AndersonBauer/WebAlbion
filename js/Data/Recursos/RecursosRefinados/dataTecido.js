@@ -2,6 +2,7 @@ export const Tecido = [
     {
     id: "TECIDO_T2_E0",
     nome: "Tecido Simples",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 2,
     encantamento: 0,
@@ -17,6 +18,7 @@ export const Tecido = [
   {
     id: "TECIDO_T3_E0",
     nome: "Tecido Limpo",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 3,
     encantamento: 0,
@@ -33,6 +35,7 @@ export const Tecido = [
   {
     id: "TECIDO_T4_E0",
     nome: "Tecido Fino",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 4,
     encantamento: 0,
@@ -49,6 +52,7 @@ export const Tecido = [
   {
     id: "TECIDO_T4_E1",
     nome: "Tecido Fino Incomum",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 4,
     encantamento: 1,
@@ -65,6 +69,7 @@ export const Tecido = [
   {
     id: "TECIDO_T4_E2",
     nome: "Tecido Fino Raro",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 4,
     encantamento: 2,
@@ -81,6 +86,7 @@ export const Tecido = [
   {
     id: "TECIDO_T4_E3",
     nome: "Tecido Fino Excepcional",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 4,
     encantamento: 3,
@@ -97,6 +103,7 @@ export const Tecido = [
   {
     id: "TECIDO_T4_E4",
     nome: "Tecido Fino Prístino",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 4,
     encantamento: 4,
@@ -113,6 +120,7 @@ export const Tecido = [
   {
     id: "TECIDO_T5_E0",
     nome: "Tecido Ornado",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 5,
     encantamento: 0,
@@ -129,6 +137,7 @@ export const Tecido = [
   {
     id: "TECIDO_T5_E1",
     nome: "Tecido Ornado Incomum",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 5,
     encantamento: 1,
@@ -145,6 +154,7 @@ export const Tecido = [
   {
     id: "TECIDO_T5_E2",
     nome: "Tecido Ornado Raro",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 5,
     encantamento: 2,
@@ -161,6 +171,7 @@ export const Tecido = [
   {
     id: "TECIDO_T5_E3",
     nome: "Tecido Ornado Excepcional",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 5,
     encantamento: 3,
@@ -177,6 +188,7 @@ export const Tecido = [
   {
     id: "TECIDO_T5_E4",
     nome: "Tecido Ornado Prístino",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 5,
     encantamento: 4,
@@ -193,6 +205,7 @@ export const Tecido = [
   {
     id: "TECIDO_T6_E0",
     nome: "Tecido Rico",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 6,
     encantamento: 0,
@@ -209,6 +222,7 @@ export const Tecido = [
   {
     id: "TECIDO_T6_E1",
     nome: "Tecido Rico Incomum",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 6,
     encantamento: 1,
@@ -225,6 +239,7 @@ export const Tecido = [
   {
     id: "TECIDO_T6_E2",
     nome: "Tecido Rico Raro",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 6,
     encantamento: 2,
@@ -241,6 +256,7 @@ export const Tecido = [
   {
     id: "TECIDO_T6_E3",
     nome: "Tecido Rico Excepcional",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 6,
     encantamento: 3,
@@ -257,6 +273,7 @@ export const Tecido = [
   {
     id: "TECIDO_T6_E4",
     nome: "Tecido Rico Prístino",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 6,
     encantamento: 1,
@@ -273,6 +290,7 @@ export const Tecido = [
   {
     id: "TECIDO_T7_E0",
     nome: "Tecido Opulento",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 7,
     encantamento: 0,
@@ -289,6 +307,7 @@ export const Tecido = [
   {
     id: "TECIDO_T7_E1",
     nome: "Tecido Opulento Incomum",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 7,
     encantamento: 1,
@@ -305,6 +324,7 @@ export const Tecido = [
   {
     id: "TECIDO_T7_E2",
     nome: "Tecido Opulento Raro",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 7,
     encantamento: 2,
@@ -321,6 +341,7 @@ export const Tecido = [
   {
     id: "TECIDO_T7_E3",
     nome: "Tecido Opulento Excepcional",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 7,
     encantamento: 3,
@@ -337,6 +358,7 @@ export const Tecido = [
   {
     id: "TECIDO_T7_E4",
     nome: "Tecido Opulento Prístino",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 7,
     encantamento: 4,
@@ -353,6 +375,7 @@ export const Tecido = [
   {
     id: "TECIDO_T8_E0",
     nome: "Tecido Barroco",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 8,
     encantamento: 0,
@@ -369,6 +392,7 @@ export const Tecido = [
   {
     id: "TECIDO_T8_E1",
     nome: "Tecido Barroco Incomum",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 8,
     encantamento: 1,
@@ -385,6 +409,7 @@ export const Tecido = [
   {
     id: "TECIDO_T8_E2",
     nome: "Tecido Barroco Raro",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 8,
     encantamento: 2,
@@ -401,6 +426,7 @@ export const Tecido = [
   {
     id: "TECIDO_T8_E3",
     nome: "Tecido Barroco Excepcional",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 8,
     encantamento: 3,
@@ -417,6 +443,7 @@ export const Tecido = [
   {
     id: "TECIDO_T8_E4",
     nome: "Tecido Barroco Prístino",
+    tipo: "recursos",
     categoria: "tecido",
     tier: 8,
     encantamento: 4,

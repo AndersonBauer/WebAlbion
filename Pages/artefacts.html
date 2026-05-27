@@ -1,80 +1,104 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
 
     <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>WEBALBION</title>
 
-    <link
-        rel="stylesheet"
-        href="../css/styleItem.css"
-    >
+    <!-- <link rel="icon" type="image/png" href="favicon.png"> -->
 
-    <link
-rel="preconnect"
-href="https://fonts.googleapis.com">
-
-<link
-rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
-
-<link
-href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&display=swap"
-rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 
 </head>
 
 <body>
 
-    <a id="back-link" class="back-button">
+    <a href="../index.html" class="back-button">
         <img style="width: 40px; height: 40px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAQiqAAEIqgFP4AhrAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAppQTFRF////AwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEEAwEE8wM9XgAAAN10Uk5TAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmJygpKissLS8wMTIzNDU2Nzg5Ojs8PT4/QEFCQ0ZHSUpLTE1OT1BRU1RVVldYWVtcXV5fYmVmZ2hpamtub3BxcnN0d3h5ent8fX5/gIGDhYaHiImKi42PkJGSk5WWl5iZmpucnp+ho6Slpqeoqqusra6vsLO0tba3uLm6u7y+v8DBwsbHyMnLzM3Oz9DR0tTV1tfY2drc3d7f4eLj5OXn6Onq6+zt7u/w8fLz9PX29/j5+vv8/f7m6hEOAAAJmklEQVR42u3d+9/fcx3H8fe1y8XM2LA0ykSrlUyRGqXRVErOxRJSKUUTkaQkpXKKVpocklNrTinnIZbTMGwObTbb+3/pJ7eb2cn2/Xyv6/v5Pu/3f2A3r8/j5vbZruf3e5UCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECYUU4QbOLx1y9d8d8fjXeJSPvMW1VrrbXeM8Ex8mx70cr6prnOEWfms/Ut9neQLKMvr6u5xkmiTLp79edfXxxwlCDTn69v9yFXyXHI0jWefz3OWWIcs2LN519nuUuKb65ay/Ov5zlMhlE/q2v1W6eJsPV1a3/+9Y9uk2C3B9bx/P1DQMZf/xat6/nXa12n/52wvAog1+CvahVArm1vqQIINuXRKoBgn3upCiDYyW9UAeQauqRWAeSacFsVQLCpC6oAgh3yShVAsNNWVgHkGn1lrQLINfHOKoBgez1ZBRDsqP9VAeQaOHtVFUCuMXNqFUCunf9dBRBs34VVAMG+tqwKINe6pv8CyLDO6b8AIqx7+i+ABOuZ/gsgwPqm/wLoe4MX1iqAXBuY/gugz21o+i+A/nbQS1UAwTY8/RdAH3sn038B9K8J86oAgu2xoAog2Duc/gugT73T6b8A+tLoK2oVQK6NmP4LoA9tzPRfAP1no6b/Aug3Gzn9F0Cf2djpvwD6y0ZP/wXQVzZ++i+AfrIJ038B9I9R59UqgFybNv0XQL/YxOm/APrEpk7/BdAfNnn6L4B+0MH0XwB9YNubqwCCTXmkCiBYZ9N/AbRdh9N/AbRbx9N/AbRa59N/AbRZA9N/AbRYE9N/AbRXI9N/AbRVQ9N/AbRUU9N/AbRTY9N/AbTSka9VAeRqcvovgPYZ8+daBZCr2em/ANqm4em/AFqm6em/AFql+em/ANqkC9N/AbRIN6b/AmiPrkz/BdAa3Zn+C6AlujX9F0A7jL+5CiBY96b/AmiDLk7/BdAC3Zz+C6DndXf6L4Be1+XpvwB6XLen/wLobV2f/gugp3V/+i+AHjYc038B9K5hmf4LoGcNz/RfAL1qmKb/Ath4Y3fbYbNu/xkDZ60a+edfVyxmTa/WWt+49YRx3Xz+wzf9Z1M98ZnuPf9hnP6zyVbO6tbzn7bQdVvh0O48/5nLnLYdFu3Uhcc/zNN/OnFj889/uKf/dGRy089/2Kf/dOS0hp//8E//6cjdzT7/EZj+05ldG3z8IzL9pzMnNvf8R2b6T2fObuz5j9D0n878pqnnP1LTfzozp6HnP2LTfzpzWyOPfwSn/3Tm4Sae/0hO/+nMi01M/x93x9Za1vnz/9LLzpgcwKkrXTE4gC2ucMPkAEZ++s9IBtAD039GMIBemP4zYgH0xvSfkQrA9D87ANP/7ABM/7MDMP2PDsD0PzsA0//sAHY1/Y8OwPQ/OwDT/+gATP+zAzD9zw7A9D87ANP/7ABM/6MDMP3PDsD0PzsA0//sAEz/swMw/Y8OwPQ/OwDT/+wATP+zAzD9jw7A9D87ANP/7ABM/7MDmPaM8yQHYPofHYDpf3YApv/ZAZj+Zwcw/XmHSQ7A9D86ANP/7ABM/7MDMP3PDsD0PzuAb5v+JwcwdLF7JAdg+p8dgOl/dgCm/9kBHO31LzqAw1Y4RXIAn3jdJZIDGL/AIaIDmOMO0QHMcIboAAb+6QzRARzlCtkB3O4K0QFs79sfsgM4xhGyA5jtCNkB3OsI2QHc7wjZAfgQUHgADzlCdgD3OEKypeUcR8j+P8BUR8gOoDzoCtkBnOEK2QFMWuIM0QGUI5whO4BygTtkBzB0h0NEB1B29qVA2QGUA3wwLDuAsqdfC5AdQHmPnwlkB1DG/tU1ogMog792jugASjnFQDg7gHKY3xCUHUDZZ6GTRAdQdvHD4ewAyrhbHSU6gDJ0matEB1DK6X5ZYHYA5Wh/GcgOoOzpSyOzAyjb3eI00QGUwZ+7TXQApXzFi0B2AF4E0gPwIpAegBeB9AC8CMQH4EUgPQAvAukBeBFID8CLQHwAXgTSA/AikB6AF4H0ALwIxAfgRSA9AC8C6QF4EUgPoJSjX3Gx6ADKh32zcHYAZeyf3Cw6gFJOXu5q0QGU/Z5ytugAyg5/d7foAMrguT48Fh1AKYcsdrroAMr7/bKx7ADKlpc7XnQApRy/zPmiAyh7L3C/6ADKdjc4YHQAZeBM3ywYHUApBy1yw+gAyqS7HDE6gLL5Ra4YHUApx9qLttfiBgIoUx91yLZ6uIkAyjZXu2RLzS3N+P4Kt2yl2Q0FUKY/45htdH5TAZQdb3PNFjqysQDKZuc7Z+ssGV0adLjfPtg2l5VGTXnASdtl/2YDKFv9wU3b5Helcd963Vlb45ExzQdQPvmEw7bEw1NKN0zwMfJ2mLNN6Y5RP/axgZ739LlTSvcc/GIv/bdefxarO/OkGYOlq3b9Vw8F8I3CsBt9qQDCfX2pALJ99DEBZBt/nQCyDcxaKYBsM54TQLb33i6AbEMXCiDcV18VQLbd5wsg29ZXCSDcd1cIINunnxZAtnfPFUC2wfMEEO7QxQLINvk+AWTb8vcCCHfiMgFk2/txAWQbf60Awg33t4kIoNd86ikBZHvXTQLINmo4v2RYAL1oxrMCyLbTPAFkG/zpKgFk++ILAsi2y10CyLb5hQIId+TLAsj2gfsEkG3LSwUQ7rjXBJBtj/kCyDZ2tgDCnbRMANn2fkwA2cZfI4Bw31shgGz7PSmAbBNuFEC2UWesFEC2zy4UQLYd5wkg2+C5qwSQ7eAXBJBt0p0CyDb0SwGEO2KJALJNvlcA2UZfIoBwM18TQLaPzBdAtiZ+HbkAWq3z7xUTQLvt9ZgAso37iwDCnbJcANn2fVIA2Sb8TQDZBn74hgCyHbhQANkm/kMA2QZ/skoA2b6wSADZNmUrJoB+MnSBAMIdvkQA2SbfI4Bsoy8WQLhjXxVAtt0fEkC2ra4UQLgTlgog28f+I4Bs464WQLjvLBdAtmlPCCDb9jdsMIATXamfDcza0FbsWEfqbwc8s/4AvuxEfW7i3PUGcKAL9bvBc9a3Ffu4A/W/z69nK/ZB5wmw8x3rev4rx7hOgqFfrCOAR9wmxOFr/0KZq1wmxT5r/ezQ6Q4T430PriWAae6SY/xNazz/+a6SZOCUt3+l0KmOkmXq/as9/6e2c5IwW/zgubf8I8B0B8kz5uQ3v1HmZT8JzLT5zNlPr6yPX7ybUwTbzAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOjM/wFwEn+y/lMddgAAAABJRU5ErkJggg==" alt="seta de voltar">
     </a>
 
-    <div class="item-page">
+    <!-- PESQUISA -->
 
-        <div class="item-card">
+    <div class="search-box">
 
-            <div class="item-header">
-
-                <img id="item-imagem">
-
-                <div class="item-info">
-
-                    <h1 id="item-nome"></h1>
-
-                    <div id="item-tier"></div>
-
-                </div>
-
-            </div>
-
-            <div class="item-section">
-
-                <div id="item-title-card">
-                    <h2>Preços</h2>
-                    <h2>Craft</h2>   
-                </div>
-
-                <div id="item-precos" class="precos-grid"></div>
-
-            </div>
-
-        </div>
+        <input
+            type="text"
+            id="search-input"
+            placeholder="Pesquisar item..."
+        >
 
     </div>
 
-    <script
-        type="module"
-        src="../js/item.js"
-    ></script>
+    <!-- TIERS -->
+
+    <div class="filters">
+
+        <button
+            class="filter-btn active"
+            data-tier="todos"
+        >
+            Todos
+        </button>
+
+        <button
+            class="filter-btn"
+            data-tier="2"
+        >
+            T2
+        </button>
+
+        <button
+            class="filter-btn"
+            data-tier="3"
+        >
+            T3
+        </button>
+
+        <button
+            class="filter-btn"
+            data-tier="4"
+        >
+            T4
+        </button>
+
+        <button
+            class="filter-btn"
+            data-tier="5"
+        >
+            T5
+        </button>
+
+        <button
+            class="filter-btn"
+            data-tier="6"
+        >
+            T6
+        </button>
+
+        <button
+            class="filter-btn"
+            data-tier="7"
+        >
+            T7
+        </button>
+
+        <button
+            class="filter-btn"
+            data-tier="8"
+        >
+            T8
+        </button>
+
+    </div>
+
+    <!-- CARDS -->
+    <div id="cards-container"></div>
+
+<script type="module" src="../js/artefacts.js"></script>
 
 </body>
 

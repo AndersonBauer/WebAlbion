@@ -14,7 +14,7 @@ document.querySelectorAll(".filter-btn");
 
 let categoriaAtual = "todos";
 
-let tipoAtual = "recursos";
+let tipoAtual = "artefatos";
 
 let tierAtual = "todos";
 
@@ -26,22 +26,8 @@ let pesquisaAtual = "";
 
 const imagensCategorias = {
 
-    tronco: "WOOD",
-    tabua: "PLANKS",
-
-    pedra: "ROCK",
-    "bloco de pedra": "STONEBLOCK",
-
-    minerio: "ORE",
-    barra: "METALBAR",
-
-    fibra: "FIBER",
-    tecido: "CLOTH",
-
-    "couro cru": "HIDE",
-    couro: "LEATHER",
-
-    "runas": "RUNE"
+    arco: "BOW",
+    "arco longo": "LONGBOW"
 };
 
 
@@ -53,23 +39,20 @@ function gerarImagem(item) {
     const base =
     "https://render.albiononline.com/v1/item/";
 
-    const categoria =
-    imagensCategorias[item.categoria];
+    // ARMAS
+    if (item.tipo === "artefatos") {
 
-    if (!categoria) {
-        return "";
+        let nome =
+        `T${item.tier}_${item.albionId}`;
+
+        if (item.encantamento > 0) {
+
+            nome +=
+            `@${item.encantamento}`;
+        }
+
+        return `${base}${nome}`;
     }
-
-    let nome =
-    `T${item.tier}_${categoria}`;
-
-    if (item.encantamento > 0) {
-
-        nome +=
-        `_LEVEL${item.encantamento}`;
-    }
-
-    return `${base}${nome}`;
 }
 
 
@@ -114,7 +97,7 @@ function criarCards(lista) {
         card.addEventListener("click", () => {
 
     window.location.href =
-    `../Pages/item.html?id=${item.id}&from=recursos`;
+    `../Pages/item.html?id=${item.id}&from=armas`;
 
 });
 
@@ -131,7 +114,7 @@ function aplicarFiltros() {
     let lista = [...mercado];
 
     lista = lista.filter(item =>
-        item.tipo === "recursos"
+        item.tipo === "artefatos"
     );
 
     if (categoriaAtual !== "todos") {
@@ -232,8 +215,6 @@ tierButtons.forEach(button => {
     });
 });
 
-
 // INICIAR
-
 
 aplicarFiltros();

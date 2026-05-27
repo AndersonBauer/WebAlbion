@@ -2,6 +2,7 @@ export const BlocoDePedra = [
     {
       id: "BLOCO_DE_PEDRA_T2_E0",
       nome: "Bloco de Calcário",
+      tipo: "recursos",
       categoria: "bloco de pedra",
       tier: 2,
       encantamento: 0,
@@ -17,6 +18,7 @@ export const BlocoDePedra = [
   {
     id: "BLOCO_DE_PEDRA_T3_E0",
     nome: "Bloco de Arenito",
+    tipo: "recursos",
     categoria: "bloco de pedra",
     tier: 3,
     encantamento: 0,
@@ -33,6 +35,7 @@ export const BlocoDePedra = [
   {
     id: "BLOCO_DE_PEDRA_T4_E0",
     nome: "Bloco de Travertino",
+    tipo: "recursos",
     categoria: "bloco de pedra",
     tier: 4,
     encantamento: 0,
@@ -49,6 +52,7 @@ export const BlocoDePedra = [
   {
     id: "BLOCO_DE_PEDRA_T5_E0",
     nome: "Bloco de Granito",
+    tipo: "recursos",
     categoria: "bloco de pedra",
     tier: 5,
     encantamento: 0,
@@ -65,6 +69,7 @@ export const BlocoDePedra = [
   {
     id: "BLOCO_DE_PEDRA_T6_E0",
     nome: "Bloco de Ardósia",
+    tipo: "recursos",
     categoria: "bloco de pedra",
     tier: 6,
     encantamento: 0,
@@ -81,6 +86,7 @@ export const BlocoDePedra = [
   {
     id: "BLOCO_DE_PEDRA_T7_E0",
     nome: "Bloco de Basalto",
+    tipo: "recursos",
     categoria: "bloco de pedra",
     tier: 7,
     encantamento: 0,
@@ -97,6 +103,7 @@ export const BlocoDePedra = [
   {
     id: "BLOCO_DE_PEDRA_T8_E0",
     nome: "Bloco de Mármore",
+    tipo: "recursos",
     categoria: "bloco de pedra",
     tier: 8,
     encantamento: 0,

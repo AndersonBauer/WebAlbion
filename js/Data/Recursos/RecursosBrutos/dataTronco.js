@@ -2,6 +2,7 @@ export const Tronco = [
     {
     id: "TRONCO_T2_E0",
     nome: "Tronco de Bétula",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 2,
     encantamento: 0,
@@ -14,6 +15,7 @@ export const Tronco = [
   {
     id: "TRONCO_T3_E0",
     nome: "Tronco de Castanheira",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 3,
     encantamento: 0,
@@ -26,6 +28,7 @@ export const Tronco = [
   {
     id: "TRONCO_T4_E0",
     nome: "Tronco de Pinho",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 4,
     encantamento: 0,
@@ -38,9 +41,7 @@ export const Tronco = [
   {
     id: "TRONCO_T4_E1",
     nome: "Tronco de Pinho Incomum",
-    categoria: "tronco",
-    tier: 4,
-    encantamento: 1,
+    tipo: "recursos",
     categoria: "tronco",
     tier: 4,
     encantamento: 1,
@@ -53,6 +54,7 @@ export const Tronco = [
   {
     id: "TRONCO_T4_E2",
     nome: "Tronco de Pinho Raro",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 4,
     encantamento: 2,
@@ -65,6 +67,7 @@ export const Tronco = [
   {
     id: "TRONCO_T4_E3",
     nome: "Tronco de Pinho Excepcional",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 4,
     encantamento: 3,
@@ -77,6 +80,7 @@ export const Tronco = [
   {
     id: "TRONCO_T4_E4",
     nome: "Tronco de Pinho Prístino",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 4,
     encantamento: 4,
@@ -89,6 +93,7 @@ export const Tronco = [
   {
     id: "TRONCO_T5_E0",
     nome: "Tronco de Cedro",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 5,
     encantamento: 0,
@@ -101,6 +106,7 @@ export const Tronco = [
   {
     id: "TRONCO_T5_E1",
     nome: "Tronco de Cedro Incomum",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 5,
     encantamento: 1,
@@ -113,6 +119,7 @@ export const Tronco = [
   {
     id: "TRONCO_T5_E2",
     nome: "Tronco de Cedro Raro",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 5,
     encantamento: 2,
@@ -125,6 +132,7 @@ export const Tronco = [
   {
     id: "TRONCO_T5_E3",
     nome: "Tronco de Cedro Excepcional",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 5,
     encantamento: 3,
@@ -137,6 +145,7 @@ export const Tronco = [
   {
     id: "TRONCO_T5_E4",
     nome: "Tronco de Cedro Prístino",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 5,
     encantamento: 4,
@@ -149,6 +158,7 @@ export const Tronco = [
   {
     id: "TRONCO_T6_E0",
     nome: "Tronco de Carvalho-sangue",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 6,
     encantamento: 0,
@@ -161,6 +171,7 @@ export const Tronco = [
   {
     id: "TRONCO_T6_E1",
     nome: "Tronco de Carvalho-sangue Incomum",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 6,
     encantamento: 1,
@@ -173,6 +184,7 @@ export const Tronco = [
   {
     id: "TRONCO_T6_E2",
     nome: "Tronco de Carvalho-sangue Raro",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 6,
     encantamento: 2,
@@ -185,6 +197,7 @@ export const Tronco = [
   {
     id: "TRONCO_T6_E3",
     nome: "Tronco de Carvalho-sangue Excepcional",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 6,
     encantamento: 3,
@@ -197,6 +210,7 @@ export const Tronco = [
   {
     id: "TRONCO_T6_E4",
     nome: "Tronco de Carvalho-sangue Prístino",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 6,
     encantamento: 4,
@@ -209,6 +223,7 @@ export const Tronco = [
   {
     id: "TRONCO_T7_E0",
     nome: "Tronco de Freixo",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 7,
     encantamento: 0,
@@ -221,6 +236,7 @@ export const Tronco = [
   {
     id: "TRONCO_T7_E1",
     nome: "Tronco de Freixo Incomum",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 7,
     encantamento: 1,
@@ -233,6 +249,7 @@ export const Tronco = [
   {
     id: "TRONCO_T7_E2",
     nome: "Tronco de Freixo Raro",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 7,
     encantamento: 2,
@@ -245,6 +262,7 @@ export const Tronco = [
   {
     id: "TRONCO_T7_E3",
     nome: "Tronco de Freixo Excepcional",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 7,
     encantamento: 3,
@@ -257,6 +275,7 @@ export const Tronco = [
   {
     id: "TRONCO_T7_E4",
     nome: "Tronco de Freixo Prístino",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 7,
     encantamento: 4,
@@ -269,6 +288,7 @@ export const Tronco = [
   {
     id: "TRONCO_T8_E0",
     nome: "Tronco de Pau-branco",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 8,
     encantamento: 0,
@@ -281,6 +301,7 @@ export const Tronco = [
   {
     id: "TRONCO_T8_E1",
     nome: "Tronco de Pau-branco Incomum",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 8,
     encantamento: 1,
@@ -293,6 +314,7 @@ export const Tronco = [
   {
     id: "TRONCO_T8_E2",
     nome: "Tronco de Pau-branco Raro",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 8,
     encantamento: 2,
@@ -305,6 +327,7 @@ export const Tronco = [
   {
     id: "TRONCO_T8_E3",
     nome: "Tronco de Pau-branco Excepcional",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 8,
     encantamento: 3,
@@ -317,6 +340,7 @@ export const Tronco = [
   {
     id: "TRONCO_T8_E4",
     nome: "Tronco de Pau-branco Prístino",
+    tipo: "recursos",
     categoria: "tronco",
     tier: 8,
     encantamento: 4,

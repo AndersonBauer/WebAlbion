@@ -2,9 +2,9 @@ import { mercado }
 from "./data.js";
 
 
-// ========================
+
 // URL
-// ========================
+
 
 const params =
 new URLSearchParams(window.location.search);
@@ -12,20 +12,37 @@ new URLSearchParams(window.location.search);
 const itemId =
 params.get("id");
 
+const from =
+params.get("from");
 
-// ========================
+
+
 // ITEM
-// ========================
+
 
 const item =
 mercado.find(item =>
     item.id === itemId
 );
 
+const backLink =
+document.getElementById("back-link");
 
-// ========================
+if (from === "armas") {
+
+    backLink.href =
+    "weapons.html";
+
+} else {
+
+    backLink.href =
+    "resources.html";
+}
+
+
+
 // IMAGENS
-// ========================
+
 
 const imagensCategorias = {
 
@@ -44,17 +61,41 @@ const imagensCategorias = {
     "couro cru": "HIDE",
     couro: "LEATHER",
 
+    "runas": "RUNE"
+
 };
 
 
-// ========================
+
 // GERAR IMAGEM
-// ========================
+
 
 function gerarImagem(item) {
 
     const base =
     "https://render.albiononline.com/v1/item/";
+
+    
+    // ARMAS
+    
+
+    if (item.tipo === "armas" || item.tipo === "artefatos") {
+
+        let nome =
+        `T${item.tier}_${item.albionId}`;
+
+        if (item.encantamento > 0) {
+
+            nome +=
+            `@${item.encantamento}`;
+        }
+
+        return `${base}${nome}`;
+    }
+
+    
+    // RECURSOS
+    
 
     const categoria =
     imagensCategorias[item.categoria];
@@ -76,9 +117,9 @@ function gerarImagem(item) {
 }
 
 
-// ========================
+
 // RENDER ITEM
-// ========================
+
 
 document.getElementById("item-imagem").src =
 gerarImagem(item);
@@ -90,16 +131,16 @@ document.getElementById("item-tier").innerText =
 `Tier ${item.tier}.${item.encantamento}`;
 
 
-// ========================
+
 // PREÇOS
-// ========================
+
 
 const precosDiv =
 document.getElementById("item-precos");
 
-// ========================
+
 // RECALCULAR
-// ========================
+
 
 function atualizarCalculos() {
 
