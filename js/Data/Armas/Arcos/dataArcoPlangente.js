@@ -14,7 +14,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T4_E0", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T4_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T4_E0", quantidade: 1}
         ]
     },
 
@@ -32,7 +32,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T4_E1", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T4_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T4_E0", quantidade: 1}
         ]
     },
 
@@ -50,7 +50,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T4_E2", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T4_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T4_E0", quantidade: 1}
         ]
     },
 
@@ -68,7 +68,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T4_E3", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T4_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T4_E0", quantidade: 1}
         ]
     },
 
@@ -86,7 +86,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T4_E4", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T4_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T4_E0", quantidade: 1}
         ]
     },
 
@@ -104,7 +104,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T5_E0", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T5_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T5_E0", quantidade: 1}
         ]
     },
 
@@ -122,7 +122,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T5_E1", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T5_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T5_E0", quantidade: 1}
         ]
     },
 
@@ -140,7 +140,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T5_E2", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T5_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T5_E0", quantidade: 1}
         ]
     },
 
@@ -158,7 +158,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T5_E3", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T5_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T5_E0", quantidade: 1}
         ]
     },
 
@@ -176,7 +176,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T5_E4", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T5_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T5_E0", quantidade: 1}
         ]
     },
 
@@ -194,7 +194,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T6_E0", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T6_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T6_E0", quantidade: 1}
         ]
     },
 
@@ -212,7 +212,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T6_E1", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T6_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T6_E0", quantidade: 1}
         ]
     },
 
@@ -230,7 +230,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T6_E2", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T6_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T6_E0", quantidade: 1}
         ]
     },
 
@@ -248,7 +248,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T6_E3", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T6_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T6_E0", quantidade: 1}
         ]
     },
 
@@ -266,7 +266,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T6_E4", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T6_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T6_E0", quantidade: 1}
         ]
     },
 
@@ -284,7 +284,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T7_E0", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T7_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T7_E0", quantidade: 1}
         ]
     },
 
@@ -302,7 +302,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T7_E1", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T7_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T7_E0", quantidade: 1}
         ]
     },
 
@@ -320,7 +320,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T7_E2", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T7_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T7_E0", quantidade: 1}
         ]
     },
 
@@ -338,7 +338,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T7_E3", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T7_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T7_E0", quantidade: 1}
         ]
     },
 
@@ -356,7 +356,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T7_E4", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T7_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T7_E0", quantidade: 1}
         ]
     },
 
@@ -374,7 +374,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T8_E0", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T8_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T8_E0", quantidade: 1}
         ]
     },
 
@@ -392,7 +392,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T8_E1", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T8_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T8_E0", quantidade: 1}
         ]
     },
 
@@ -410,7 +410,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T8_E2", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T8_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T8_E0", quantidade: 1}
         ]
     },
 
@@ -428,7 +428,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T8_E3", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T8_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T8_E0", quantidade: 1}
         ]
     },
 
@@ -446,7 +446,7 @@ export const ArcoPlangente = [
         },
         craft: [
             {id:"TABUA_T8_E4", quantidade: 32},
-            {id:"PONTAS_DE_FLECHA_DEMONIACAS_T8_E0", quantidade: 1}
+            {id:"PONTAS_DE_FLECHAS_DEMONIACAS_T8_E0", quantidade: 1}
         ]
     }
 ]

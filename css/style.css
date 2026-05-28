@@ -201,7 +201,7 @@ body {
     display: grid;
 
     grid-template-columns:
-        repeat(auto-fit, 250px);
+        repeat(auto-fit, 280px);
 
     gap: 25px;
 

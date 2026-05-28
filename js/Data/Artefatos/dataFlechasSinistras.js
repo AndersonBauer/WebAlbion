@@ -5,7 +5,7 @@ export const FlechasSinistras = [
         nome: "Flechas Sinistras do Adepto",
         tipo: "artefatos",
         categoria: "fechas sinistras",
-        albionId: "2H_LONGBOW_UNDEAD",
+        albionId: "ARTEFACT_2H_LONGBOW_UNDEAD",
         tier: 4,
         encantamento: 0,
         precos: {
@@ -22,7 +22,7 @@ export const FlechasSinistras = [
         nome: "Flechas Sinistras do Perito",
         tipo: "artefatos",
         categoria: "fechas sinistras",
-        albionId: "2H_LONGBOW_UNDEAD",
+        albionId: "ARTEFACT_2H_LONGBOW_UNDEAD",
         tier: 5,
         encantamento: 0,
         precos: {
@@ -39,7 +39,7 @@ export const FlechasSinistras = [
         nome: "Flechas Sinistras do Mestre",
         tipo: "artefatos",
         categoria: "fechas sinistras",
-        albionId: "2H_LONGBOW_UNDEAD",
+        albionId: "ARTEFACT_2H_LONGBOW_UNDEAD",
         tier: 6,
         encantamento: 0,
         precos: {
@@ -56,7 +56,7 @@ export const FlechasSinistras = [
         nome: "Flechas Sinistras do Grão-Mestre",
         tipo: "artefatos",
         categoria: "fechas sinistras",
-        albionId: "2H_LONGBOW_UNDEAD",
+        albionId: "ARTEFACT_2H_LONGBOW_UNDEAD",
         tier: 7,
         encantamento: 0,
         precos: {
@@ -73,7 +73,7 @@ export const FlechasSinistras = [
         nome: "Flechas Sinistras do Ancião",
         tipo: "artefatos",
         categoria: "fechas sinistras",
-        albionId: "2H_LONGBOW_UNDEAD",
+        albionId: "ARTEFACT_2H_LONGBOW_UNDEAD",
         tier: 8,
         encantamento: 0,
         precos: {

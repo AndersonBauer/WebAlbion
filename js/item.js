@@ -65,8 +65,13 @@ const imagensCategorias = {
     "couro cru": "HIDE",
     couro: "LEATHER",
 
-    "runas": "RUNE"
+    "runas": "RUNE",
+    alma: "SOUL",
 
+    reliquia: "RELIC",
+    "fragmento de avalon": "SHARD_AVALONIAN",
+
+    "fragmento de cristal": "SHARD_CRYSTAL"
 };
 
 

@@ -19,8 +19,18 @@ import { ArcoAndarilhoCeleste } from "./Data/Armas/Arcos/dataArcoAndarilhoCelest
 import { Adaga } from "./Data/Armas/Adagas/dataAdagas.js";
 import { Runas } from "./Data/Recursos/Runas/dataRunas.js";
 import { FlechasSinistras } from "./Data/Artefatos/dataFlechasSinistras.js";
+import { Alma } from "./Data/Recursos/Almas/dataAlma.js";
+import { PontasDeFlechasDemoniacas } from "./Data/Artefatos/dataPontasDeFlechaDemoniacas.js";
+import { OssoEntalhado } from "./Data/Artefatos/dataOssoEntalhado.js";
+import { Reliquia } from "./Data/Recursos/Reliquias/dataReliquia.js";
+import { TuboImpecavelmenteTrabalhado } from "./Data/Artefatos/dataTuboImpecavel.js";
+import { FragmentosAvalon } from "./Data/Recursos/Fragmentos/dataFragmentosAvalon.js";
+import { CristalVentoso } from "./Data/Artefatos/dataCristalVentoso.js";
+import { FragmentoDeCristal } from "./Data/Recursos/Fragmentos/dataFragmentosDeCristal.js";
 
 export const mercado = [
+
+    // Recursos
     ...Tabua,
     ...Tecido,
     ...CouroCurtido,
@@ -31,8 +41,28 @@ export const mercado = [
     ...BlocoDePedra,
     ...Tronco,
     ...Minerio,
+
+    // Relíquias
+    ...Reliquia,
+
+    // Runas
     ...Runas,
+
+    // Almas
+    ...Alma,
+
+    // Fragmentos
+    ...FragmentosAvalon,
+    ...FragmentoDeCristal,
+
+    // Artefatos
     ...FlechasSinistras,
+    ...PontasDeFlechasDemoniacas,
+    ...OssoEntalhado,
+    ...TuboImpecavelmenteTrabalhado,
+    ...CristalVentoso,
+
+    // Armas
     ...Arco,
     ...ArcoLongo,
     ...ArcoDeGuerra,
